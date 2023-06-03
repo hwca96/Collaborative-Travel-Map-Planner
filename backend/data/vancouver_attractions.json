@@ -1,0 +1,2610 @@
+{
+    "meta": {
+        "name": "Vancouver Attractions Tourism Challenge 2023",
+        "distance": 145614,
+        "runtype": "guide",
+        "tags": {
+            "scenic": false,
+            "dogs": false,
+            "lit": false,
+            "remote": false,
+            "road": false,
+            "trail": false,
+            "path": false,
+            "outAndBack": false,
+            "oneWay": true,
+            "loop": false,
+            "gpx": false
+        },
+        "hillrate": 3,
+        "terrainrate": 3,
+        "rating": 3,
+        "description": "How it works:\nA Vancouver tourism industry tradition, the TOURISM CHALLENGE is our annual opportunity to re-educate ourselves and enjoy the outstanding attractions and world class hotels that our region has to offer, so that we are ready to welcome our guests and SHARE our passion and knowledge. \nVisit https://www.tourismchallenge.ca  for more information.\n\nMap by RunGo. Contact info@rungoapp.com to learn about digital city maps and hotel audio-guided routes.",
+        "cost": "free",
+        "active": true,
+        "elevation": 0,
+        "officialStatus": 0
+    },
+    "track": [
+        {
+            "Lon": -121.44896667827625,
+            "Lat": 49.78032121834725,
+            "Ele": 54
+        },
+        {
+            "Lon": -121.44893495869428,
+            "Lat": 49.780334872990615,
+            "Ele": 44
+        },
+        {
+            "Lon": -123.19137560322486,
+            "Lat": 49.12642100560006,
+            "Ele": 44
+        },
+        {
+            "Lon": -123.19139907139,
+            "Lat": 49.1264286842915,
+            "Ele": 44
+        },
+        {
+            "Lon": -123.19113655309205,
+            "Lat": 49.126433510374746,
+            "Ele": 29
+        }
+    ],
+    "waypoints": [
+        {
+            "dist": 0,
+            "wLon": -121.44896667827625,
+            "wLat": 49.78032121834725,
+            "type": "start",
+            "continue": false,
+            "Street2": "",
+            "trackIndex": 0
+        },
+        {
+            "dist": 145613.7625696835,
+            "wLon": -123.19113655309205,
+            "wLat": 49.126433510374746,
+            "type": "end",
+            "continue": false,
+            "Street2": "",
+            "trackIndex": 4
+        }
+    ],
+    "poi": [
+        {
+            "wLon": -123.111056,
+            "wLat": 49.288788,
+            "pid": 1,
+            "index": 1,
+            "dbID": "wIc8PtgfZF",
+            "Poiname": "Canada Place",
+            "Address": "999 Canada Pl, Vancouver, BC V6C 3T4",
+            "Description": "An iconic national landmark welcoming local residents, visitors and ships to the West Coast. Opened in 1986 as the Canada Pavilion for Expo 86, it has since become a national icon and a hub of activity on Vancouver’s waterfront.",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.1147535,
+            "wLat": 49.3428322,
+            "pid": 2,
+            "index": 2,
+            "dbID": "QrLrTQUmCG",
+            "Poiname": "Capilano Suspension Bridge",
+            "Address": "3735 Capilano Rd, North Vancouver, BC V7R 4J1 Canada",
+            "Description": "3735 Capilano Rd, North Vancouver, BC V7R 4J1 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.13081204891205,
+            "wLat": 49.300571532170515,
+            "pid": 3,
+            "index": 3,
+            "dbID": "z0wd8yeACA",
+            "Poiname": "Vancouver Aquarium",
+            "Address": "845 Avison Way, Vancouver, BC V6G 3E2 Canada",
+            "Description": "845 Avison Way, Vancouver, BC V6G 3E2 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.132968,
+            "wLat": 49.294438,
+            "pid": 4,
+            "index": 4,
+            "dbID": "gObVTh6qXO",
+            "Poiname": "Harbour Cruises",
+            "Address": "501 Denman St, Vancouver, BC V6G 2W9 Canada",
+            "Description": "501 Denman St, Vancouver, BC V6G 2W9 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.120491,
+            "wLat": 49.282944,
+            "pid": 5,
+            "index": 5,
+            "dbID": "JI8dImsgHn",
+            "Poiname": "Vancouver Art Gallery",
+            "Address": "750 Hornby St, Vancouver, BC V6Z 2H7 Canada",
+            "Description": "750 Hornby St, Vancouver, BC V6Z 2H7 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.11218422291022,
+            "wLat": 49.277496044201094,
+            "pid": 6,
+            "index": 6,
+            "dbID": "vQuCRV9qi8",
+            "Poiname": "BC Sports Hall of Fame  ",
+            "Address": "777 Pacific Blvd, Vancouver, BC V6B 4Y8, Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.11480293156285,
+            "wLat": 49.28810239920313,
+            "pid": 7,
+            "index": 7,
+            "dbID": "0k9HynYI0X",
+            "Poiname": "Gray Line Westcoast Sightseeing",
+            "Address": "Downtown Canada Place, Vancouver, BC V6C 3E2, Canada",
+            "Description": "999 Canada Place, Vancouver, BC V6C 3T4",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.11033070087433,
+            "wLat": 49.28890402827178,
+            "pid": 8,
+            "index": 8,
+            "dbID": "6a4r1EEvmH",
+            "Poiname": "FlyOver Canada",
+            "Address": "999 Canada Pl, Vancouver, BC V6C 3E1 Canada",
+            "Description": "999 Canada Pl, Vancouver, BC V6C 3E1 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.0805377,
+            "wLat": 49.3112261,
+            "pid": 9,
+            "index": 9,
+            "dbID": "V0GlFzjfPK",
+            "Poiname": "Museum of North Vancouver",
+            "Address": "115 Esplanade W, North Vancouver, BC V7M 1A1, Canada",
+            "Description": "",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.10390949249268,
+            "wLat": 49.27332789342083,
+            "pid": 10,
+            "index": 10,
+            "dbID": "hFDmWqKCNP",
+            "Poiname": "Science World",
+            "Address": "1455 Quebec Street, Vancouver, BC V6A 3Z7 Canada",
+            "Description": "1455 Quebec Street, Vancouver, BC V6A 3Z7 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.1039508,
+            "wLat": 49.2796634,
+            "pid": 11,
+            "index": 11,
+            "dbID": "WdE49XwGr4",
+            "Poiname": "Dr. Sun Yat-Sen Classical Chinese Garden",
+            "Address": "578 Carrall St, Vancouver, BC V6B 5K2 Canada",
+            "Description": "578 Carrall St, Vancouver, BC V6B 5K2 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.1007812,
+            "wLat": 49.2801472,
+            "pid": 12,
+            "index": 12,
+            "dbID": "u62XoXvIUS",
+            "Poiname": "Chinatown Storytelling Centre",
+            "Address": "168 E Pender St, Vancouver, BC V6A 1T3 Canada",
+            "Description": "168 E Pender St, Vancouver, BC V6A 1T3 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.144447,
+            "wLat": 49.276329,
+            "pid": 13,
+            "index": 13,
+            "dbID": "Khz638mCLh",
+            "Poiname": "Museum of Vancouver",
+            "Address": "1100 Chestnut St, Vancouver, BC V6J 3J9 Canada",
+            "Description": "1100 Chestnut St, Vancouver, BC V6J 3J9 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.109705,
+            "wLat": 49.2829039,
+            "pid": 14,
+            "index": 14,
+            "dbID": "GxKT0Kmzny",
+            "Poiname": "Forbidden Vancouver Walking Tours",
+            "Address": "207 W Hastings St, Vancouver, BC V6B 1H7 Canada",
+            "Description": "207 W Hastings St, Vancouver, BC V6B 1H7 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.1478019,
+            "wLat": 49.2775025,
+            "pid": 15,
+            "index": 15,
+            "dbID": "nFOpoK0Z0Q",
+            "Poiname": "Vancouver Maritime Museum",
+            "Address": "1905 Ogden Ave, Vancouver, BC V6J 1A3 Canada",
+            "Description": "1905 Ogden Ave, Vancouver, BC V6J 1A3 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.25940251350403,
+            "wLat": 49.2695197232765,
+            "pid": 16,
+            "index": 16,
+            "dbID": "tyew2sEeeU",
+            "Poiname": "Museum of Anthropology",
+            "Address": "6393 NW Marine Dr, Vancouver, BC V6T 1Z2 Canada",
+            "Description": "6393 NW Marine Dr, Vancouver, BC V6T 1Z2 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.24728965759277,
+            "wLat": 49.25102771924354,
+            "pid": 17,
+            "index": 17,
+            "dbID": "kQcm9IVyuD",
+            "Poiname": "UBC Botanical Garden",
+            "Address": "6804 SW Marine Dr, Vancouver, BC V6T 1Z4 Canada",
+            "Description": "6804 SW Marine Dr, Vancouver, BC V6T 1Z4 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.2510272,
+            "wLat": 49.2633099,
+            "pid": 18,
+            "index": 18,
+            "dbID": "wFVYycJMqp",
+            "Poiname": "Beaty Biodiversity Museum",
+            "Address": "2212 Main Mall, Vancouver, BC V6T 1Z4 Canada",
+            "Description": "2212 Main Mall, Vancouver, BC V6T 1Z4 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.13223361968994,
+            "wLat": 49.23968122092985,
+            "pid": 19,
+            "index": 19,
+            "dbID": "0WoKzsUC55",
+            "Poiname": "VanDusen Botanical Garden",
+            "Address": "5151 Oak St, Vancouver, BC V6M 4H1 Canada",
+            "Description": "5151 Oak St, Vancouver, BC V6M 4H1 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.14204514026642,
+            "wLat": 49.163378440267614,
+            "pid": 20,
+            "index": 20,
+            "dbID": "5S6RZchyhL",
+            "Poiname": "Richmond Museum",
+            "Address": "7700 Minoru Gate, Richmond, BC V6Y 1R9 Canada",
+            "Description": "7700 Minoru Gate, Richmond, BC V6Y 1R9 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.1407433,
+            "wLat": 49.1642915,
+            "pid": 21,
+            "index": 21,
+            "dbID": "nBbdYXakgh",
+            "Poiname": "Richmond Art Gallery",
+            "Address": "7700 Minoru Gate, Richmond, BC V6Y 1R8 Canada",
+            "Description": "7700 Minoru Gate, Richmond, BC V6Y 1R8 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.18665053038453,
+            "wLat": 49.124972598496136,
+            "pid": 22,
+            "index": 22,
+            "dbID": "lcJ044pEu3",
+            "Poiname": "Gulf of Georgia Cannery Society",
+            "Address": "12138 Fourth Ave, Richmond, BC V7E 3J1 Canada",
+            "Description": "12138 Fourth Ave, Richmond, BC V7E 3J1 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.1517514,
+            "wLat": 49.1747727,
+            "pid": 23,
+            "index": 23,
+            "dbID": "IbuYiGWsuJ",
+            "Poiname": "Richmond Olympic Experience",
+            "Address": "6111 River Rd, Richmond, BC V7C 0A2 Canada",
+            "Description": "6111 River Rd, Richmond, BC V7C 0A2 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.03638337193173,
+            "wLat": 49.169462565696406,
+            "pid": 24,
+            "index": 24,
+            "dbID": "PH0oMw2XtQ",
+            "Poiname": "Lulu Island Winery",
+            "Address": "16880 Westminster Hwy, Richmond, BC V6V 1A8 Canada",
+            "Description": "16880 Westminster Hwy, Richmond, BC V6V 1A8 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.1692147,
+            "wLat": 49.1210816,
+            "pid": 25,
+            "index": 25,
+            "dbID": "EFFbuHJBNN",
+            "Poiname": "Britannia Shipyards National Historic Site",
+            "Address": "5180 Westwater Dr, Richmond, BC V7E 6P3 Canada",
+            "Description": "5180 Westwater Dr, Richmond, BC V7E 6P3 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.15712451934814,
+            "wLat": 49.67509196771439,
+            "pid": 26,
+            "index": 26,
+            "dbID": "FzYY3s4qYB",
+            "Poiname": "Sea to Sky Gondola",
+            "Address": "36800 Highway 99, Squamish, BC V8B 0B6 Canada",
+            "Description": "36800 Highway 99, Squamish, BC V8B 0B6 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.08051030461397,
+            "wLat": 49.31030023960998,
+            "pid": 27,
+            "index": 27,
+            "dbID": "3hh3k3dlfC",
+            "Poiname": "The Polygon Gallery",
+            "Address": "101 Carrie Cates Crt, North Vancouver, BC V7M 3J4 Canada",
+            "Description": "101 Carrie Cates Crt, North Vancouver, BC V7M 3J4 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.2052218914032,
+            "wLat": 49.6236529267029,
+            "pid": 28,
+            "index": 28,
+            "dbID": "Sv3027BXuK",
+            "Poiname": "Britannia Mine Museum",
+            "Address": "150 Copper Drive, Britannia Beach, BC V8B 1J1 Canada",
+            "Description": "150 Copper Drive, Britannia Beach, BC V8B 1J1 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.018599152565,
+            "wLat": 49.30896972544148,
+            "pid": 29,
+            "index": 29,
+            "dbID": "4igGU2ilQE",
+            "Poiname": "Maplewood Farm",
+            "Address": "405 Seymour River Pl, North Vancouver, BC V7H 1S6 Canada",
+            "Description": "405 Seymour River Pl, North Vancouver, BC V7H 1S6 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -122.96586692333221,
+            "wLat": 49.23942204205614,
+            "pid": 30,
+            "index": 30,
+            "dbID": "gGqNzS0FTp",
+            "Poiname": "Burnaby Village Museum",
+            "Address": "6501 Deer Lake Ave, Burnaby, BC V5G 3T6 Canada",
+            "Description": "6501 Deer Lake Ave, Burnaby, BC V5G 3T6 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -122.9712909,
+            "wLat": 49.2409102,
+            "pid": 31,
+            "index": 31,
+            "dbID": "FlO5xtUfFo",
+            "Poiname": "Burnaby Art Gallery",
+            "Address": "6344 Deer Lake Ave, Burnaby, BC V5G 2J3 Canada",
+            "Description": "6344 Deer Lake Ave, Burnaby, BC V5G 2J3 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -122.490335,
+            "wLat": 49.0940305,
+            "pid": 33,
+            "index": 33,
+            "dbID": "0Zh1iy30Ly",
+            "Poiname": "Greater Vancouver Zoo",
+            "Address": "5048 264 St, Aldergrove, BC V4W 1N7 Canada",
+            "Description": "5048 264 St, Aldergrove, BC V4W 1N7 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -122.732261,
+            "wLat": 49.1047897,
+            "pid": 34,
+            "index": 34,
+            "dbID": "VZn6E9SDCI",
+            "Poiname": "Museum of Surrey",
+            "Address": "17710 56A Ave, Surrey, BC V3S 5H8 Canada",
+            "Description": "Museum of Surrey reflects the incredible diversity of people who call Surrey home through Feature Exhibits, Indigenous Hall, great programming, a Textile Studio and fun, meaningful special events. All programming celebrates Surrey’s past, present and future with innovative, dynamic, and delightful learning and storytelling.",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -122.3568573,
+            "wLat": 49.2291435,
+            "pid": 35,
+            "index": 35,
+            "dbID": "4pJBam7mnM",
+            "Poiname": "The Powerhouse at Stave Falls Visitor Centre",
+            "Address": "31330 Dewdney Trunk Road, Mission, BC V4S 1C4 Canada",
+            "Description": "31330 Dewdney Trunk Road, Mission, BC V4S 1C4 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -122.83042073249817,
+            "wLat": 49.17922071078864,
+            "pid": 36,
+            "index": 36,
+            "dbID": "VsB7v4nUw1",
+            "Poiname": "Surrey Nature Centre",
+            "Address": "14225 Green Timbers Way, Surrey, BC V3T 0J2 Canada",
+            "Description": "14225 Green Timbers Way, Surrey, BC V3T 0J2 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -122.56920576095581,
+            "wLat": 49.24092806244645,
+            "pid": 37,
+            "index": 37,
+            "dbID": "ocTkUCzJTl",
+            "Poiname": "WildPlay - Maple Ridge",
+            "Address": "23485 Fern Cres, Maple Ridge, BC V4R 2S6 Canada",
+            "Description": "23485 Fern Cres, Maple Ridge, BC V4R 2S6 Canada",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -122.59759962558746,
+            "wLat": 49.210385400811276,
+            "pid": 38,
+            "index": 38,
+            "dbID": "JM2xIGVBWd",
+            "Poiname": "Maple Ridge Museum",
+            "Address": "22520 116th Ave, Maple Ridge, BC V2X 0S4 Canada",
+            "Description": "22520 116th Ave, Maple Ridge, BC V2X 0S4 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -121.44687294960022,
+            "wLat": 49.7819498945376,
+            "pid": 39,
+            "index": 39,
+            "dbID": "z490VPzLy3",
+            "Poiname": "Hell's Gate Airtram",
+            "Address": "43111 Trans Canada Hwy, Boston Bar, BC V0K 1C0 Canada",
+            "Description": "43111 Trans Canada Hwy, Boston Bar, BC V0K 1C0 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -122.5728506,
+            "wLat": 49.1679115,
+            "pid": 40,
+            "index": 40,
+            "dbID": "TtyAE1Eeje",
+            "Poiname": "Fort Langley National Historic Site",
+            "Address": "23433 Mavis Ave, Langley, BC V1M 0C8 Canada",
+            "Description": "23433 Mavis Ave, Langley, BC V1M 0C8 Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.13212677625543,
+            "wLat": 49.28692749754997,
+            "pid": 42,
+            "index": 42,
+            "dbID": "Gd2JjXSp4c",
+            "Poiname": "Roedde House Museum",
+            "Address": "1415 Barclay St, Vancouver, BC V6G 1J6, Canada",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.14443,
+            "wLat": 49.27623,
+            "pid": 43,
+            "index": 43,
+            "dbID": "SXNLa9r7BK",
+            "Poiname": "H.R. Macmillan Space Centre",
+            "Address": "1100 Chestnut St, Vancouver, BC, V6J 3J9",
+            "Description": "Be dazzled by the stars in the night sky - indoors! The Space Centre reveals the wonders of the universe through a spectacular visual presentation in their full-dome Planetarium Star Theatre.",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.09811,
+            "wLat": 49.28222,
+            "pid": 44,
+            "index": 44,
+            "dbID": "4G2NUgeDtg",
+            "Poiname": "Vancouver Police Museum and Archives",
+            "Address": "240 East Cordova Street, Vancouver, BC, V6A 1L3",
+            "Description": "Set in the heart of Old Vancouver, between the historic neighbourhoods of Chinatown and Gastown, the Vancouver Police Museum and Archives offers a one-of-a-kind experience. The museum is located in the heritage building that once housed the City of Vancouver's Coroner’s Court, Morgue and Autopsy Facility, and the original City Analyst's Laboratory.</p>\n<p>Home to over 30,000 rare artefacts, photos and archival documents, including unique crime related evidence and innovative forensics. The museum's exhibits tell stories of true crime, justice and policing in the City's history, from its beginnings in the lawless \"Wild West\" to its current-day initiatives for the community.",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.1096303,
+            "wLat": 49.28295868,
+            "pid": 45,
+            "index": 45,
+            "dbID": "lGEMm9EoTJ",
+            "Poiname": "Vancouver Mysteries",
+            "Address": "207 W Hastings St, Vancouver, BC V6B 1H7",
+            "Description": "Canada's first mystery game company. In a Vancouver Mysteries game, you and your friends are immersed into a real-life adventure. Use the game kit to decipher puzzles, collect clues, and work as a team to solve the mystery as your story unfolds on the streets of downtown Vancouver.",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.1320082,
+            "wLat": 49.2977582,
+            "pid": 46,
+            "index": 46,
+            "dbID": "jbht1BT7Ph",
+            "Poiname": "Stanley Park Horse-Drawn Tours",
+            "Address": "735 Stanley Park Dr, Vancouver",
+            "Description": "A one-hour fully narrated horse-drawn tour that travels around the eastern side of Stanley Park on a tram seating up to 26 passengers.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.13846168709034,
+            "wLat": 49.26136842565266,
+            "pid": 47,
+            "index": 47,
+            "dbID": "2XCK2Tmgcn",
+            "Poiname": "Arts Club Theatre Company: Stanley Industrial Alliance Stage",
+            "Address": "2750 Granville St, Vancouver, BC V6H 3J3",
+            "Description": "The Arts Club Theatre Company is the largest theatre company in Western Canada. Each year, over a quarter of a million people experience the best in professional theatre at its three venues: the Stanley Industrial Alliance Stage, Granville Island Stage, and Newmont Stage at the BMO Theatre Centre. Its popular productions range from musicals and contemporary comedies to new works and classics.",
+            "customType": "poi-deals"
+        },
+        {
+            "wLon": -123.1363383,
+            "wLat": 49.27214474,
+            "pid": 48,
+            "index": 48,
+            "dbID": "thMbkiqElC",
+            "Poiname": "Prince of Whales - Whale Watching Adventures",
+            "Address": "1666 Duranleau St, Vancouver, BC V6H 3S2",
+            "Description": "Join us for a fully-guided whale watching or marine wildlife tour.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.1193182,
+            "wLat": 49.28413862,
+            "pid": 49,
+            "index": 49,
+            "dbID": "RPZ3CgMVAJ",
+            "Poiname": "Cycle City Rentals & Tours",
+            "Address": "648 Hornby St, Vancouver, BC V6C 2G2",
+            "Description": "Vancouver's #1 Bicycle Tour and Rental Shop. We offer fun and informative guided tours of the city, covering all of the major highlights. Book a tour to experience all that Vancouver has to offer, or simply rent a bike to explore on your own.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.0660192,
+            "wLat": 49.2767809,
+            "pid": 50,
+            "index": 50,
+            "dbID": "JvD7AE8Iel",
+            "Poiname": "The Cultch",
+            "Address": "1895 Venables St, Vancouver, BC V5L 2H6",
+            "Description": "As Vancouver’s most diverse and innovative arts and cultural hub, The Cultch has created meaningful, impactful connections across communities for nearly 50 years. As a presenting theatre, we curate unique, intimate, and diverse performances from Vancouver, Canada, and across the globe offering dynamic contemporary programming in theatre, dance, music, circus, and visual arts.",
+            "customType": "poi-deals"
+        },
+        {
+            "wLon": -123.10881280170827,
+            "wLat": 49.2845960793342,
+            "pid": 51,
+            "index": 51,
+            "dbID": "SOzLcaPC5J",
+            "Poiname": "Toonie Tours Vancouver",
+            "Address": "123 Cambie St #101, Vancouver, BC V6B 4R3, Canada",
+            "Description": "Our tours take you through Vancouver’s most popular neighborhoods, like Gastown, Waterfront and Downtown on our Free Walking Tour of Vancouver; and Stanley Park on our Stanley Park Bike Tour. We also share pieces of the less travelled area’s of the city, like Mount Pleasant’s back-alleys on our Street Art Walking Tours. ",
+            "customType": "poi-deals"
+        },
+        {
+            "wLon": -123.1363211,
+            "wLat": 49.2707448,
+            "pid": 52,
+            "index": 52,
+            "dbID": "BtPbo1KhxH",
+            "Poiname": "The Improv Centre",
+            "Address": "1502 Duranleau St, Vancouver, BC V6H 3S4",
+            "Description": "Join us Thursday through Saturday for some of Vancouver's best comedy! From our classic TheatreSports shows, to express family-friendly matinee's and bi-weekly Stand-Up comedy, The Improv Centre welcomes laughter for everyone. TIC is a fully-licensed facility with its own Bar & Lounge over-looking False Creek Marina, welcoming patrons to take their beverages into the theatre to enjoy during the show.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.2736441,
+            "wLat": 49.37474306,
+            "pid": 53,
+            "index": 53,
+            "dbID": "QER5gtylgT",
+            "Poiname": "Sewell's Marina",
+            "Address": "6409 Bay St, Horseshoe Bay, West Vancouver",
+            "Description": "Enjoy beautiful West Coast scenery and wildlife on this 2 hour, guided boat tour of breathtaking Howe Sound.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.1444553,
+            "wLat": 49.70708458,
+            "pid": 54,
+            "index": 54,
+            "dbID": "oFIyvP58DK",
+            "Poiname": "Rope Runner Aerial Park",
+            "Address": "38400 Loggers Ln, Squamish, BC V8B 0H2",
+            "Description": "Come explore a safe yet thrilling obstacle course experience in the sky for everyone to enjoy. You will navigate the course to conquer up to 50 elements with varying levels of difficulty but, withno set route the possibilities are endless. Our structure stands at 60ft (18M) at its highest level and only 15ft (4.5M) at its lowest level.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.1598047,
+            "wLat": 49.78328836,
+            "pid": 55,
+            "index": 55,
+            "dbID": "kscnU23QqK",
+            "Poiname": "Sea To Sky Air",
+            "Address": "46041 Government Rd, Garibaldi Highlands, BC V0N 1T0",
+            "Description": "Soar over the Howe Sound and Coast Mountains amongst ancient mountains, valleys, lakes and rivers on a 15 minute plane flight tour over Squamish.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.11345642952193,
+            "wLat": 49.28765212485089,
+            "pid": 56,
+            "index": 56,
+            "dbID": "POAL4Mbw6g",
+            "Poiname": "LandSea Adventures",
+            "Address": "999 Canada Pl #536, Vancouver, BC V6C 3L5, Canada",
+            "Description": "Offering boutique, year round scheduled sightseeing tours to Whistler, Victoria, Sea To Sky, North Shore and Vancouver.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.1365808,
+            "wLat": 49.27171389,
+            "pid": 57,
+            "index": 57,
+            "dbID": "s6PMSieuqm",
+            "Poiname": "Vancouver Water Adventures",
+            "Address": "1812 Boatlift Ln, Vancouver, BC V6H 3Y2",
+            "Description": "Vancouver is a paddler's paradise,and we are ready to take you from the shore to the open water. Rentals are first-come, first-served, and we do not take reservations - so we advise coming early in the day!",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.1345583,
+            "wLat": 49.27039003,
+            "pid": 58,
+            "index": 58,
+            "dbID": "zvZL6bjpJl",
+            "Poiname": "Vancouver Foodie Tours",
+            "Address": "1494 Old Bridge St, Vancouver, BC V6H 3S6",
+            "Description": "Food tasting and cultural walking tours, introducing visitors to one-of-a-kind dishes that define Vancouver's vibrant culinary scene. Guests indulge in a feast for their eyes, belly, and mind, tasting signature dishes at award winning restaurants and food shops. This is a city walking tour that provides a great introduction to Vancouver's history, culture, and architecture.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.1011657,
+            "wLat": 49.26399343,
+            "pid": 59,
+            "index": 59,
+            "dbID": "GoUWuEpGC1",
+            "Poiname": "Tightrope Impro Theatre on Main",
+            "Address": "2343 Main St, Vancouver, BC V5T 3C9",
+            "Description": "A theatre company specializing in Improv! We produce professional Improvised Theatre and provide a variety of training in improvisation.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.2361713,
+            "wLat": 49.87346425,
+            "pid": 60,
+            "index": 60,
+            "dbID": "ksedm1RaXB",
+            "Poiname": "Canadian Outback Rafting",
+            "Address": "12825 Squamish Valley Rd, Brackendale, BC V0N 1H0",
+            "Description": "For the ultimate outdoor adventure, experience the best white water rafting trips.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.18403128854325,
+            "wLat": 49.12449704178284,
+            "pid": 61,
+            "index": 61,
+            "dbID": "89hgQW1KP1",
+            "Poiname": "Vancouver Whale Watch",
+            "Address": "12240 Second Ave #210, Richmond, BC V7E 3L8, Canada",
+            "Description": "Established in 1998, Vancouver Whale Watch is the original whale watching company in Vancouver. Departing from the charming historic fishing village of Steveston, every year we welcome visitors locally and from around the world.",
+            "customType": "poi-deals"
+        },
+        {
+            "wLon": -123.1197536,
+            "wLat": 49.28034513,
+            "pid": 62,
+            "index": 62,
+            "dbID": "3yvJ37Yq7P",
+            "Poiname": "Vancouver Symphony Orchestra",
+            "Address": "843 Seymour St #500, Vancouver, BC V6B 0G4",
+            "Description": "Led by Music Director Otto Tausk since 2018, the VSO performs more than 150 concerts each year. The VSO presents passionate, high-quality performances of classical, popular and culturally diverse music, creating meaningful engagement with audiences of all ages and backgrounds.",
+            "customType": "poi-deals",
+            "customTag": [
+                "Great Deal"
+            ]
+        },
+        {
+            "wLon": -123.113669,
+            "wLat": 49.287395,
+            "pid": 63,
+            "index": 63,
+            "dbID": "26yKZu92HU",
+            "Poiname": "ARC Restaurant at Fairmont Waterfront",
+            "Address": "900 Canada Pl, Vancouver, BC V6C 3L5",
+            "Description": "Simply inspired, handcrafted fare presented in a relaxed setting. Life is complicated. Good food shouldn't be.",
+            "customType": "poi-food",
+            "featured": true,
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.0791906,
+            "wLat": 49.31074661,
+            "pid": 64,
+            "index": 64,
+            "dbID": "tzv8pFjnXU",
+            "Poiname": "The Lobby Restaurant & Lounge at the Pinnacle at the Pier",
+            "Address": "138 Victory Ship Way, North Vancouver, BC V7L 0B1",
+            "Description": "Settle in on the North Vancouver Seaside for a perspective on delicious dining.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.141409,
+            "wLat": 49.28724385,
+            "pid": 65,
+            "index": 65,
+            "dbID": "LrBIOXqIfN",
+            "Poiname": "The Bayside Room at The Best Western Plus Sands Hotel",
+            "Address": "1755 Davie St, Vancouver, BC V6G 1W5",
+            "Description": "With world famous English Bay as our backdrop, Bayside Lounge is Vancouver's most cherished cocktail lounge. This unique venue features a sunken circular bar with a panoramic ocean view, a legendary cocktail list, and a tapas-style menu. Enjoy one of the West End's spectacular sunsets through our large bay windows and admire the ships at anchor or the twinkling of the harbour lights.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.0783128,
+            "wLat": 49.30993215,
+            "pid": 66,
+            "index": 66,
+            "dbID": "FrNpVcjtbm",
+            "Poiname": "Provisions at Seaside Hotel",
+            "Address": "125 Victory Ship Way #130, North Vancouver, BC V7L 0G5",
+            "Description": "Coastal, local, and distinctly North Vancouver. We bring the ocean bounty to small plate dining. Oysters shucked and prepared fresh, innovative seafood creations and snacks ideal for sharing.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1464909,
+            "wLat": 49.29230908,
+            "pid": 67,
+            "index": 67,
+            "dbID": "E3xgzCUdd5",
+            "Poiname": "Stanley Park BrewPub",
+            "Address": "8901 Stanley Park Dr, Vancouver, BC V6G 3E2",
+            "Description": "Recommended by Times Square Suites Hotel. This restaurant and BrewPub offers a casual west coast-inspired menu, and a rotating selection of award winning favourites, with new and innovative beers brewed on-site.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1294147,
+            "wLat": 49.29228634,
+            "pid": 68,
+            "index": 68,
+            "dbID": "Uwn1hYTtkh",
+            "Poiname": "H2 Rotisserie & Bar at The Westin Bayshore",
+            "Address": "1601 Bayshore Dr., Vancouver, BC V6G 2V4",
+            "Description": "Offering upscale comfort food and local beer & wine on tap. With a focus on fresh, local ingredients, H2's flagship offering is the mouth-watering Maple Hill Farms rotisserie chicken, complemented by a completely local beverage program. Soak in the serene setting of Vancouver's iconic Seawall, Coal Harbour Marina, and unparalleled views of the North Shore mountains.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1424535,
+            "wLat": 49.2887189,
+            "pid": 69,
+            "index": 69,
+            "dbID": "BJa7kZZ1TQ",
+            "Poiname": "Sylvia Hotel",
+            "Address": "1154 Gilford St, Vancouver, BC V6G 2P6",
+            "Description": "Our historic Dining Room and Lounge overlooks the ocean at English Bay and we are open for breakfast, lunch and dinner.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1288575,
+            "wLat": 49.28704089,
+            "pid": 70,
+            "index": 70,
+            "dbID": "2J55yVT0dl",
+            "Poiname": "The Jervis Joint at The Listel Hotel",
+            "Address": "1300 Robson St, Vancouver, BC V6E 1C5",
+            "Description": "Located on the corner of Robson & Jervis in the heart of the West End, the Jervis Joint is Vancouver’s hottest new hangout. Try out the best new burger in town, catch sports on our large screen displays, play board games, or just enjoy a pint with pals.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1272375,
+            "wLat": 49.28632899,
+            "pid": 71,
+            "index": 71,
+            "dbID": "UKGhzyAY27",
+            "Poiname": "ABODE Restaurant at the Blue Horizon Hotel",
+            "Address": "1223 Robson St, Vancouver, BC V6E 1C2",
+            "Description": "Casual, comfortable, and always welcoming. Enjoy Robson Street's best people watching from our sunny patio.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1243417,
+            "wLat": 49.27780842,
+            "pid": 72,
+            "index": 72,
+            "dbID": "2vifyVehUe",
+            "Poiname": "The Edge Social Grille at Best Western Premier Chateau Granville",
+            "Address": "1100 Granville St, Vancouver, BC V6Z 2B6",
+            "Description": "Delighting guests with an expansive menu featuring locally sourced ingredients.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1234454,
+            "wLat": 49.28571343,
+            "pid": 73,
+            "index": 73,
+            "dbID": "RJy0pIxvUJ",
+            "Poiname": "CHI the Spa at Shangri-La Vancouver",
+            "Address": "1128 W Georgia St, Vancouver, BC V6E 0A8",
+            "Description": "Located on the 3rd floor, CHI - The Spa at ShangriLa Vancouver draws inspiration from the origins of the ShangriLa legend, which describes a unique place of personal peace, enchantment, and well-being. This is a luxurious sanctuary where holistic treatments based on time-honoured methods shared by many Asian cultures, bring total relaxation and a feeling of wellbeing.",
+            "customType": "poi-spa",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1205641,
+            "wLat": 49.28378806,
+            "pid": 74,
+            "index": 74,
+            "dbID": "3QYWFSrGAr",
+            "Poiname": "Notch8 Restaurant & Bar at Fairmont Vancouver Hotel",
+            "Address": "900 W Georgia St, Vancouver, BC V6C 2W6",
+            "Description": "With a luxurious and contemporary design inspired by the romance of 1930s rail travel, Notch8 Restaurant & Bar brings a new era of glamour to Fairmont Hotel Vancouver. Featuring regional fare that includes new favourites and prized classics, cocktails made popular during pre and post prohibition times, as well as an extensive wine list.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1203793,
+            "wLat": 49.28521004,
+            "pid": 75,
+            "index": 75,
+            "dbID": "dryknaEQUk",
+            "Poiname": "Mosaic Grille at the Hyatt Regency Vancouver",
+            "Address": "655 Burrard St, Vancouver, BC V6C 2R7",
+            "Description": "Mosaic Grille focuses on locally\nsourced produce, sustainable seafood and fresh ingredients with creative preparation.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1222277,
+            "wLat": 49.28821196,
+            "pid": 76,
+            "index": 76,
+            "dbID": "JzDFzDLTWA",
+            "Poiname": "Prestons Restaurant + Lounge at Coast Coal Harbour Hotel",
+            "Address": "1177 W Pender St, Vancouver, BC V6E 2P4",
+            "Description": "An ideal location for lunch, after-work drinks, dinner with family and friends, or brunch on the patio. The Culinary Team creates delicious, distinctly West Coast offerings from locally sourced, sustainable ingredients.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.12034,
+            "wLat": 49.287854,
+            "pid": 77,
+            "index": 77,
+            "dbID": "E6fGf0cUNW",
+            "Poiname": "Showcase Restaurant & Bar at Vancouver Marriott Downtown",
+            "Address": "1122 W Hastings St, Vancouver, BC V6E 4J6",
+            "Description": "Inspired by the rich diversity of our city, offering a wide variety of appetizer, and sharing selections, as well as casual items, and entrees. Also try our local craft beers, local wine, and specialty cocktails",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1146738,
+            "wLat": 49.28693254,
+            "pid": 78,
+            "index": 78,
+            "dbID": "Vc2eOCoVw1",
+            "Poiname": "Auberge Hotel & Lions Pub at the Terminal City Club",
+            "Address": "888 W Cordova St, Vancouver, BC V6C 0A7",
+            "Description": "TCC Lions Pub is the ideal place to meet up with friends, watch a game and enjoy the best traditional British fare Coal Harbour has to offer.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1274563,
+            "wLat": 49.28094113,
+            "pid": 79,
+            "index": 79,
+            "dbID": "wc8p1luOQ9",
+            "Poiname": "CPrime Modern Italian Steak & Wine at Century Plaza Hotel",
+            "Address": "1015 Burrard St, Vancouver, BC V6Z 1Y5",
+            "Description": "A modern and sophisticate approach to authentic Italian cuisine, delivering incredible food and a fashionable atmosphere, all while taking guests on a bold flavour journey through upscale Italy, while incorporating hints of New York City.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1203729,
+            "wLat": 49.28855966,
+            "pid": 80,
+            "index": 80,
+            "dbID": "C7CsCiEf18",
+            "Poiname": "P2B Bistro and Bar at the Pinnacle Hotel Harbourfront",
+            "Address": "1133 W Hastings St, Vancouver, BC V6E 3T3",
+            "Description": "A modern, upscale-casual bistro featuring a diverse west coast inspired menu created by ourtalented Chef Edmund Yee. Explore the fresh and local food and drink specials, while enjoying the views of Stanley Park, Coal Harbour, and North Shore Mountains from the restaurant or on the patio.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1119408,
+            "wLat": 49.28256944,
+            "pid": 81,
+            "index": 81,
+            "dbID": "3OTSMJvzQC",
+            "Poiname": "Autostrada Osteria Downtown near The Victorian Hotel",
+            "Address": "350 W Pender St, Vancouver, BC V6B 1T1",
+            "Description": "A newly renovated boutique-style property housed in a beautiful brick Victorian era building dating back to 1898. Once inside, guests are transported to the 21st century with 47 beautifully appointed guest rooms designed to create a truly refreshing hotel experience.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1129195,
+            "wLat": 49.28815468,
+            "pid": 82,
+            "index": 82,
+            "dbID": "W84AWBFVFX",
+            "Poiname": "Oceans 999 Restaurant & Coal Harbour Bar at the Pan Pacific",
+            "Address": "999 Canada Pl #300, Vancouver, BC V6C 3B5",
+            "Description": "Casual dining with harbour and mountain views offering West Coast inspired cuisine.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1165372,
+            "wLat": 49.2880822,
+            "pid": 83,
+            "index": 83,
+            "dbID": "ZVzKFaZbVG",
+            "Poiname": "The Lounge at the Fairmont Pacific Rim",
+            "Address": "1038 Canada Pl, Vancouver, BC V6C 0B9",
+            "Description": "Come check out one of Vancouver’s top social scenes, a polished, experiential lounge at the Fairmont Pacific Rim with sustainable raw bar sushi, refined cocktails, seafood & live music.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1127092,
+            "wLat": 49.28416415,
+            "pid": 84,
+            "index": 84,
+            "dbID": "JxBvh1W7ce",
+            "Poiname": "Stock & Supply at the Delta Vancouver Downtown Suites",
+            "Address": "550 W Hastings St, Vancouver, BC V6B 1L6",
+            "Description": "A unique food and beverage experience, celebrating the best of Vancouver, Stock & Supply is an inviting yet elevated escape from the daily hustle of the downtown core, encouraging social moments, with 'build your own board' options and well-crafted cocktails during brunch, dinner, and happy hour.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1183166,
+            "wLat": 49.28391893,
+            "pid": 85,
+            "index": 85,
+            "dbID": "9HI5Y6keoR",
+            "Poiname": "Diva at the Met - Metropolitan Hotel Vancouver",
+            "Address": "645 Howe St, Vancouver, BC V6C 2Y9",
+            "Description": "Savour contemporary fare featuring the regional tastes of British Columbia at our restaurant in Vancouver's vibrant downtown district. Gather with friends for a decadent breakfast, leisurely lunch, or sumptuous dinner in the restaurant or for hand-crafted cocktails in our warm, inviting bar.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1182627,
+            "wLat": 49.28529945,
+            "pid": 86,
+            "index": 86,
+            "dbID": "iMMR5zibxY",
+            "Poiname": "Alouette Bistro at Hotel Le Soleil",
+            "Address": "567 Hornby St, Vancouver, BC V6C 2E8",
+            "Description": "Refined and timeless- Alouette borrows its culinary philosophies from the enduring dishes and methods of classic French bistros and invigorates them utilizing West Coast flavors. Dishes like Bouillabaisse and Steak Frites remain loyal to their French roots but are redesigned with flavors that showcase the beauty and variety of British Columbia.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1157882,
+            "wLat": 49.28553771,
+            "pid": 87,
+            "index": 87,
+            "dbID": "Y1ls3YAycQ",
+            "Poiname": "Hydra at the EXchange Hotel",
+            "Address": "475 Howe St, Vancouver, BC V6B 2B3",
+            "Description": "Exceptional Greek dining located in the EXchange Hotel Tower atrium, Hydra applies Greece's timehonored ingredients with traditional cooking styles, focusing on quality Mediterranean dishes. Famous for it's fresh seafood raw bar.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.116985,
+            "wLat": 49.28047616,
+            "pid": 88,
+            "index": 88,
+            "dbID": "0XeD7MRKxV",
+            "Poiname": "L'Orangerie at L'Hermitage Hotel Vancouver",
+            "Address": "788 Richards St, Vancouver, BC V6B 3A4",
+            "Description": "Offering a luxurious and timeless vibe. You will discover, in this exceptional setting, seasonal bites, refreshing mixology and carefully selected list of BC and California wines.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.116985,
+            "wLat": 49.27980863,
+            "pid": 89,
+            "index": 89,
+            "dbID": "ieCYpklVWy",
+            "Poiname": "Hendricks Resto at the Hilton Vancouver Downtown",
+            "Address": "433 Robson St, Vancouver, BC V6B 6L9",
+            "Description": "Overlooking the city's vibrant LibrarySquare, offering a contemporary twist on the classics with a subtle nod to West Coast lounge culture. Hendricks is both a full serve restaurant showcasing clean, modern cuisine and an old school cocktail bar serving up decadently crafted cocktails.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1257402,
+            "wLat": 49.27848252,
+            "pid": 90,
+            "index": 90,
+            "dbID": "8sbKD5bQ5R",
+            "Poiname": "UnWind West Coast Social at the Holiday Inn & Suites Vancouver Downtown",
+            "Address": "1110 Howe St, Vancouver, BC V6Z 2Y6",
+            "Description": "Relax in Unwind West Coast Social's casual and inviting restaurant and lounge where you can refuel throughout the day.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1133955,
+            "wLat": 49.27820931,
+            "pid": 91,
+            "index": 91,
+            "dbID": "7sJmXBaZqD",
+            "Poiname": "Frankie's Italian Kitchen & Bar at Georgian Court",
+            "Address": "765 Beatty St, Vancouver, BC V6B 2M4",
+            "Description": "Frankie's brings some of southern Italy's flavors and family recipes as well as not so traditional Italian dishes to the table.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1132667,
+            "wLat": 49.27534172,
+            "pid": 92,
+            "index": 92,
+            "dbID": "rTgwXM4yKs",
+            "Poiname": "Honey Salt at JW Marriott Parq Vancouver",
+            "Address": "39 Smithe St, Vancouver, BC V6B 5E7",
+            "Description": "A true neighborhood restaurant that combines classic comfort with a relaxed sophistication, with a contemporary experience complemented by the warmth and style of its dedicated owners. Serving chef-driven, farm to table cuisine with an emphasis on locally and regionally sourced ingredients that highlight the bounty of British Columbia in an approachable and comfortable setting.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1227117,
+            "wLat": 49.27473333,
+            "pid": 93,
+            "index": 93,
+            "dbID": "IMvHV1UMX5",
+            "Poiname": "Capo & The Spritz at the Opus Hotel",
+            "Address": "350 Davie St, Vancouver, BC V6B 1R2",
+            "Description": "Capo is a New York style pizzeria offering a casual, fun, energetic dining experience. The Spritz is a cozy, sophisticated cocktail bar nestled off OPUS Hotel Vancouver's lobby.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1225665,
+            "wLat": 49.28229523,
+            "pid": 94,
+            "index": 94,
+            "dbID": "zLjbCgLQ2m",
+            "Poiname": "Bacchus Restaurant & Lounge at the Wedgewood Hotel",
+            "Address": "845 Hornby St, Vancouver, BC V6Z 1V1",
+            "Description": "Award winning restaurant, Bacchus features a European inspired menu, afternoon tea, wine, and cocktails in ornate space with old-world charm and piano bar.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1239053,
+            "wLat": 49.28305942,
+            "pid": 95,
+            "index": 95,
+            "dbID": "f0AqLzQZk4",
+            "Poiname": "Boulevard Kitchen & Oyster Bar at The Sutton Place Hotel",
+            "Address": "845 Burrard St, Vancouver, BC V6Z 2K6",
+            "Description": "A unique showcase for the award-winning culinary combination of Chef Alex Chen and Chef Roger Ma. Our seafood focused menu artfully infuses casual West Coast flair with creative hints of international influences.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1117961,
+            "wLat": 49.18813827,
+            "pid": 96,
+            "index": 96,
+            "dbID": "ki6NZiTLyt",
+            "Poiname": "Denny's at Sandman Signature Vancouver Hotel & Resort",
+            "Address": "10251 St Edwards Dr, Richmond, BC V6X 2M9",
+            "Description": "Denny's as been a place where people can come in and connect with one another over great food for over 60 years. It's a place that was founded on community, where you can have \"the usual\" or try something new. We're always open.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1101516,
+            "wLat": 49.18730187,
+            "pid": 97,
+            "index": 97,
+            "dbID": "HS5CZ8iqv5",
+            "Poiname": "Chop Steakhouse & Bar at Sandman Signature Vancouver Hotel & Resort",
+            "Address": "10251 St Edwards Dr, Richmond, BC V6X 2M9",
+            "Description": "Created for people who love sharing, connecting and everything steak.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -121.76553321378245,
+            "wLat": 49.23926007910845,
+            "pid": 98,
+            "index": 98,
+            "dbID": "Q0yig4w52x",
+            "Poiname": "Agassiz-Harrison Museum",
+            "Address": "7011 Pioneer Ave, Agassiz, BC V0M 1A0, Canada",
+            "Description": "The museum celebrates local, regional and national history, and features both indoor and outdoor exhibits.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -123.1268527,
+            "wLat": 49.27690314,
+            "pid": 99,
+            "index": 99,
+            "dbID": "danUAZ2vxp",
+            "Poiname": "The Morissey at the Ramada Vancouver Downtown",
+            "Address": "1227 Granville St, Vancouver, BC V6Z 1M5",
+            "Description": "A proud guardian of rock and roll, The Morrissey is one of the city's best places to grab a drink and a fantastic meal.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1284182,
+            "wLat": 49.27786382,
+            "pid": 100,
+            "index": 100,
+            "dbID": "2X9kYEyYrV",
+            "Poiname": "Residence Inn by Marriott Vancouver Downtown",
+            "Address": "1234 Hornby St, Vancouver, BC V6Z 1W2",
+            "Description": "A rotating selection of healthy choices at our hot breakfast buffet every day. Start with favorites like bacon and eggs, Greek yogurt, cut fruit, or waffles - and make it yours with our extensive toppings, ranging from fresh spinach and cheese to slice almonds and strawberries. Enjoy all the options you need to start your morning.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1327783,
+            "wLat": 49.28105072,
+            "pid": 102,
+            "index": 102,
+            "dbID": "jg6kPvM0CF",
+            "Poiname": "Moxies at the Sandman Davie Street",
+            "Address": "1160 Davie St, Vancouver, BC V6E 1N1",
+            "Description": "Our restaurants and menus are inspired by the communities we are part of. From the team we hire to the food we make, it's an expression of the neighbourhoods we inhabit across this country. From coast to coast we focus on quality food made with fresh ingredients served in a stylish, comfortable, and casual environment.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1332449,
+            "wLat": 49.19082124,
+            "pid": 103,
+            "index": 103,
+            "dbID": "ZsSco8qMYB",
+            "Poiname": "The Apron at The Westin Wall Centre, Vancouver Airport",
+            "Address": "3099 Corvette Way, Richmond, BC V6X 3A3",
+            "Description": "Offering four-star stays on the banks of the Fraser River. Our ideal location places you near shopping, restaurants, attractions, and YVR. Work up an appetite at our indoor heated pool or fitness centre before enjoying healthy, Pacific-inspired dishes at the Apron.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1276874,
+            "wLat": 49.19625087,
+            "pid": 104,
+            "index": 104,
+            "dbID": "5AEgjJQ4CV",
+            "Poiname": "Curve Lounge at the River Rock Casino Resort",
+            "Address": "8811 River Rd, Richmond, BC V6X 3P8",
+            "Description": "Situated in the lobby with entrance to the marina and boardwalk at River Rock, the Curve Lounge boasts a stunning setting with an intimate, sophisticated ambiance. It's the perfect place to have lunch, come with coworkers for drinks after work, watch a game, or have a light dinner and drinks with friends before visiting the casino.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1859294,
+            "wLat": 49.12564228,
+            "pid": 105,
+            "index": 105,
+            "dbID": "FWXhRIBeIs",
+            "Poiname": "The Buck & Ear Pub at the Steveston Cafe & Hotel",
+            "Address": "12111 Third Ave, Richmond, BC V7E 3K1",
+            "Description": "An homage to the historic Steveston Hotel, The Buck & Ear Bar and Grill features the best selection of appetizers, flatbreads, burgers, sandwiches, and entrees to satisfy even the most acclaimed taste buds.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1416224,
+            "wLat": 49.17083724,
+            "pid": 106,
+            "index": 106,
+            "dbID": "QSIUlz70DQ",
+            "Poiname": "Harold's Kitchen and Bar at the Sheraton Vancouver Airport",
+            "Address": "7551 Westminster Hwy, Richmond, BC V6X 1A3",
+            "Description": "A contemporary restaurant and bar highlighting comfortable globally inspired casual dining supporting the green concept from farm to table!",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1405089,
+            "wLat": 49.17168588,
+            "pid": 107,
+            "index": 107,
+            "dbID": "LwUKl1gDiA",
+            "Poiname": "Cavu Kitchen Bar at the Hilton Vancouver Airport",
+            "Address": "5911 Minoru Blvd, Richmond, BC V6X 4C7",
+            "Description": "A trendy Richmond hot spot specializing in gourmet burgers, inspired appetizers, hand-built cocktails, and a focused selection of craft beers.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1792322,
+            "wLat": 49.19490121,
+            "pid": 108,
+            "index": 108,
+            "dbID": "ExT6rC3Tlp",
+            "Poiname": "Globe@YVR at Fairmont Vancouver Airport Hotel",
+            "Address": "3111 Grant McConachie Way, Richmond, BC V7B 0A6",
+            "Description": "Set against the backdrop of the North Shore mountains and Vancouver International Airport's active run ways, Globe@YVR celebrates the flavours of the Pacific Northwest with dishes that highlight sustainable and locally sourced ingredients. Open daily for breakfast, lunch, dinner, and our signature afternoon tea service.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1144215,
+            "wLat": 49.19137638,
+            "pid": 109,
+            "index": 109,
+            "dbID": "OMbfOvdeF9",
+            "Poiname": "Moxie's at Sandman Hotel Vancouver Airport",
+            "Address": "3233 St Edwards Dr, Richmond, BC V6X 3K4",
+            "Description": "Our restaurants and menus are inspired by the communities we are part of. From the team we hire to the food we make, it's an expression of the neighbourhoods we inhabit across this country. From coast to coast we focus on quality food made with fresh ingredients served in a stylish, comfortable, and casual environment.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1406274,
+            "wLat": 49.1703603,
+            "pid": 110,
+            "index": 110,
+            "dbID": "P41pl2HQpk",
+            "Poiname": "75 West Coast Grill at Vancouver Airport Marriott Hotel",
+            "Address": "7571 Westminster Hwy, Richmond, BC V6X 1A3",
+            "Description": "Comfort and elegance come together to create a distinctly West Coast experience, featuring a contemporary menu of shares, classic mains and casual favourties.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.0069845,
+            "wLat": 49.25663677,
+            "pid": 111,
+            "index": 111,
+            "dbID": "AVT8JBDqAt",
+            "Poiname": "ATLAS Steak + Fish at Delta Burnaby Hotel & Conference Centre",
+            "Address": "4331 Dominion St, Burnaby, BC V5G 1C7",
+            "Description": "A flirtatious and modern twist on the iconic North American steakhouse. Sip and savor in our warm and casually elegant ambiance as we serve you with our stylish approach to hospitality and remarkable cuisine.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.0041172,
+            "wLat": 49.23033493,
+            "pid": 112,
+            "index": 112,
+            "dbID": "Z8F2yDT5SN",
+            "Poiname": "Rise at Element by Westin Vancouver Metrotown",
+            "Address": "5988 Willingdon Ave, Burnaby, BC V5H 2A7",
+            "Description": "There's no reason to disrupt your healthy habits and comforting routines. Jump-start your morning with our continental breakfast buffet, featuring an extensive selection of healthy favourite.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.0209087,
+            "wLat": 49.26415752,
+            "pid": 113,
+            "index": 113,
+            "dbID": "GfQWBUVBZQ",
+            "Poiname": "Element Cafe at the Accent Inn",
+            "Address": "3855 Henning Dr, Burnaby, BC V5C 6N3",
+            "Description": "Fresh pastries, gourmet sandwiches along with great coffee! Dine-in and take-out options available.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -120.7851757,
+            "wLat": 49.06378186,
+            "pid": 114,
+            "index": 114,
+            "dbID": "3e7Ph1QJ02",
+            "Poiname": "Pinewoods Dining Room at Manning Park Resort",
+            "Address": "7500 BC-3, Manning Park, BC V0X 1R0",
+            "Description": "With a picturesque mountain backdrop, it's the ideal place to come together to enjoy a family gathering or an intimate meal. An extensive menu designed by our executive chef ensures that everyone in your party will be delighted with their dining experience, whether it is breakfast, lunch or dinner.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1134361,
+            "wLat": 49.27550009,
+            "pid": 115,
+            "index": 115,
+            "dbID": "syH5W2pHDE",
+            "Poiname": "D6 Lounge at JW Marriott Parq Vancouver",
+            "Address": "39 Smithe St, Vancouver, BC V6B 0R3",
+            "Description": "Located on the 6th floor, this lounge offers innovative and high-quality interpretations of classic bar \"comfort\" foods paired with a sophisticated, contemporary, lounge ambiance. Menu items range from sushi, fresh seafood appetizers, to a wagyu beef burger, with an extensive bar stocked with local, regional, and international beers.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1448507,
+            "wLat": 49.17037837,
+            "pid": 116,
+            "index": 116,
+            "dbID": "hBOQISIaeA",
+            "Poiname": "Freebird Table & Bar at The Executive Hotel Vancouver Airport",
+            "Address": "5991 Alderbridge Way, Richmond, BC V6X 4C5",
+            "Description": "Warm food and welcoming service with a cast-iron soul. The spirit of southern food with the heart of the west coast behind it.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.11308163963574,
+            "wLat": 49.27840226424723,
+            "pid": 117,
+            "index": 117,
+            "dbID": "yJazZRPomV",
+            "Poiname": "Pane e Formaggio and YWCA Hotel",
+            "pType": "food",
+            "Address": "733 Beatty St, Vancouver, BC V6B 2M4, Canada",
+            "Description": "Pane e Fromaggio an Italian café and bakery that provides freshly baked artisan pastries and savoury sandwiches and salads.",
+            "customType": "poi-food"
+        },
+        {
+            "wLon": -123.1264732,
+            "wLat": 49.28030788,
+            "pid": 118,
+            "index": 118,
+            "dbID": "U2iU0Urw3Q",
+            "Poiname": "Cafe One at the Sheraton Vancouver Wall Centre Hotel",
+            "Address": "1000 Burrard St, Vancouver, BC V6Z 2R9",
+            "Description": "Nestled in the city centre, the Wall Centre is the largest hotel in Vancouver with 746 guest rooms and suites, featuring an indoor pool, health club, business centre and just minutes from top attractions and vibrant neighbourhoods. Fuel your adventure at Cafe One, inside or on our outdoor patio, offering refined Canadian and West Coast specific dishes.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1310397661292,
+            "wLat": 49.19212087976321,
+            "pid": 119,
+            "index": 119,
+            "dbID": "xlBsYDi8WN",
+            "Poiname": "Bruno Restaurant and Cask Whisky Vault at Versante Hotel",
+            "Address": "8499 Bridgeport Rd, Richmond, BC V6X 1R7, Canada",
+            "Description": "Just minutes from Vancouver Airport, Versante is far from a typical airport hotel. The hotel dazzles with vibrant colours, natural light and iconic furnishings, like the handcrafted chinoiserie rug by Andy Dixon in the lobby, the charcoal sculpture by Marie Khouri and the custom pink reception pod.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1140751,
+            "wLat": 49.2779977,
+            "pid": 120,
+            "index": 120,
+            "dbID": "qqbeopPpYP",
+            "Poiname": " District Bar Restaurant at the Hampton Inn",
+            "Address": "111 Robson St, Vancouver, BC V6B 2A8",
+            "Description": "District Bar Restaurant - Contemporary watering hole offering cocktails, burgers, pizza, and homey classics such as pot pies!! \n\nFind us on the corner of the Robson Street entertainment district. We're across from BC Place events and a short walk from Rogers Arena. Gastown's renowned restaurant and shopping scene is five minutes away. Free hot breakfast, free WiFi, and our rooftop whirlpool are all yours.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1229283,
+            "wLat": 49.2791294,
+            "pid": 121,
+            "index": 121,
+            "dbID": "bupx6nDRza",
+            "Poiname": "The Living Room at the Belmont Hotel",
+            "Address": "654 Nelson St, Vancouver, BC V6B 6K4",
+            "Description": "Know that friend who always says, “My house is your house?” Well… We’re that friend! From watching your favourite sports team to eating those late-night snacks, there is always a reason to end up here.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1233219,
+            "wLat": 49.2876645,
+            "pid": 122,
+            "index": 122,
+            "dbID": "DwJBmr5Wre",
+            "Poiname": "Tableau Bar Bistro at the Loden Hotel",
+            "Address": "1177 Melville St, Vancouver, BC V6E 0A3",
+            "Description": "Tableau Bar Bistro - The award winning neighbourhood bistro, offers a traditional French-inspired menu with West Coast influences. ",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1243213,
+            "wLat": 49.286984,
+            "pid": 123,
+            "index": 123,
+            "dbID": "xNnmjaIJHc",
+            "Poiname": " Karma Lounge at the Paradox Hotel Vancouver",
+            "Address": "1161 W Georgia St, Vancouver, BC V6E 0C6",
+            "Description": "At Paradox Hotel Vancouver, we transform tourists into travelers. Rather than simply breezing in and out of town after visiting a few places on the guidebook, our guests connect with the essence of Vancouver.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1282511703048,
+            "wLat": 49.276061162476054,
+            "pid": 124,
+            "index": 124,
+            "dbID": "87EyFnoIap",
+            "Poiname": "White Spot at GEC Granville Suites",
+            "pType": "",
+            "Address": "1313 Granville St, Vancouver, BC V6Z 2W6, Canada",
+            "Description": "White Spot, founded in 1928, is the longest-running Canadian restaurant chain based in BC, best known for their award-winning burgers, Pirate Pak kids meals, hand-scooped milkshakes and secret Triple O sauce.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -122.79894228821944,
+            "wLat": 49.1918992213836,
+            "pid": 125,
+            "index": 125,
+            "dbID": "K271ESxKi9",
+            "Poiname": " MIXT Restaurant and Lounge at the Sheraton Vancouver Guildford Hotel",
+            "Address": "15269 104 Ave, Surrey, BC V3R 1N5, Canada",
+            "Description": "Characterized by a depth ofwest coast character and distinct culture flavors, MIXT is a uniquely local and luxurious Lobby lounge, located right here, in Surrey.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.12674727287248,
+            "wLat": 49.27694373015855,
+            "pid": 126,
+            "index": 126,
+            "dbID": "kDfbm9gsuw",
+            "Poiname": "The Morrissey Pub & Restaurant at the Quality Inn",
+            "Address": "1221 Granville St, Vancouver, BC V6Z 1B6, Canada",
+            "Description": "Ideally located in the heart of downtown Vancouver’s famous entertainment district, the Quality Inn and Suites® offers easy access to stylish boroughs like Gastown, the West End, and Yaletown. Minutes from everything downtown Vancouver has to offer.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1223359,
+            "wLat": 49.2883852,
+            "pid": 127,
+            "index": 127,
+            "dbID": "zrfXCFwqGe",
+            "Poiname": "Coast Coal Harbour Hotel",
+            "Address": "1180 W Hastings St, Vancouver, BC V6E 4R5",
+            "Description": "Located in downtown Vancouver's Coal Harbour neighbourhood.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.120764,
+            "wLat": 49.28530026,
+            "pid": 128,
+            "index": 128,
+            "dbID": "O1Cg5x7WSv",
+            "Poiname": "Hyatt Regency Vancouver",
+            "Address": "655 Burrard St, Vancouver, BC V6C 2R7",
+            "Description": "The perfect location to stay for both leisure and business travelers. Guests will enjoy easy access to exciting attractions.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.129276,
+            "wLat": 49.28716113,
+            "pid": 129,
+            "index": 129,
+            "dbID": "n7xwwgJG3L",
+            "Poiname": "The Listel Hotel Vancouver",
+            "Address": "1300 Robson St, Vancouver, BC V6E 1C5",
+            "Description": "Enhance your hotel experience here with us in the West End of Vancouver. The Listel Hotel is so much more than simply a place to sleep; it is a cultural tourist's dream, as well as a leader in environmental responsibility. 129 boutique rooms and suites are filled with limited edition and original artwork and modern amenities including high speed Wi-Fi. The Listel is also home to Forage, showcasing Chef Welbert Choi's award-winning, sustainable fare.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.0791729,
+            "wLat": 49.31059913,
+            "pid": 130,
+            "index": 130,
+            "dbID": "9tuLzpw4DS",
+            "Poiname": "The Pinnacle Hotel at the Pier",
+            "Address": "138 Victory Ship Way, North Vancouver, BC V7L 0B1",
+            "Description": "Overlooking a sweeping vista of the Burrard Inlet, Pinnacle Hotel at the Pier offers North Vancouver accommodations with spectacular views.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.1153041,
+            "wLat": 49.28643066,
+            "pid": 131,
+            "index": 131,
+            "dbID": "MdflY4v5La",
+            "Poiname": "Auberge Vancouver Hotel",
+            "Address": "837 W Hastings St, Vancouver, BC V6C 1B6",
+            "Description": "Situated in the Terminal City Tower, its location offers breathtaking views of the picturesque waterfront and mountain backdrop, and is the luxury hotel of choice for leisure and business travelers looking to make the most of their Vancouver experience.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.1121395,
+            "wLat": 49.28238596,
+            "pid": 132,
+            "index": 132,
+            "dbID": "DcAOTti18g",
+            "Poiname": "The Victorian Hotel",
+            "Address": "514 Homer St, Vancouver, BC V6B 2V6",
+            "Description": "A uniquely Vancouver property that highlights the best of its locale. Within the brick facade of both historic buildings, there graces an era of open spaces inspired by high-ceilings and solidity of past century construction.This boutique hotel was established in 1898.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.1271289,
+            "wLat": 49.2801613,
+            "pid": 133,
+            "index": 133,
+            "dbID": "qUURGLjA8K",
+            "Poiname": "Sheraton Vancouver Wall Centre Hotel",
+            "Address": "1088 Burrard Street, Vancouver, BC",
+            "Description": "Nestled in the city centre, the Wall Centre is the largest hotel in Vancouver with 746 guest rooms and suites, featuring an indoor pool, health club, business centre and just minutes from top attractions and vibrant neighbourhoods.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.1408008,
+            "wLat": 49.17172022,
+            "pid": 134,
+            "index": 134,
+            "dbID": "KBspTwAVeu",
+            "Poiname": "Hilton Vancouver Airport",
+            "Address": "5911 Minoru Blvd, Richmond, BC V6X 4C7",
+            "Description": "Located near the YVR airport, this location is only an 11-minute walk from Richmond Centre.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.1256665,
+            "wLat": 49.27841112,
+            "pid": 135,
+            "index": 135,
+            "dbID": "538Dy9A3Cw",
+            "Poiname": "Holiday Inn & Suites Vancouver Downtown",
+            "Address": "1110 Howe St, Vancouver, BC V6Z 1R2",
+            "Description": "Steps from trendy Yaletown bars & restaurants, Robson Street and Shopping, Entertainment District, we are ideal for a comfortable & stylish stay in the heart of the city. Leisure guests can enjoy a stroll along the Vancouver Seawall and take a ferry across False Creek to Granville Island Market.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.1239111,
+            "wLat": 49.28305491,
+            "pid": 136,
+            "index": 136,
+            "dbID": "3z8lmJPtMv",
+            "Poiname": "The Sutton Place Hotel",
+            "Address": "845 Burrard St, Vancouver, BC V6Z 2K6",
+            "Description": "Luxury, elegance and an elevated state of style welcome you the moment you pass through the doors of The Sutton Place Hotel Vancouver. Let us grace you with an experience grounded in European allure, with personal concierge attention that is second to none.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.1270986,
+            "wLat": 49.28088611,
+            "pid": 137,
+            "index": 137,
+            "dbID": "dhO93kgGkE",
+            "Poiname": "Century Plaza Hotel  ",
+            "Address": "1015 Burrard St, Vancouver, BC V6Z 1Y5",
+            "Description": "Enjoy your stay in this centrally located hotel in Downtown Vancouver.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.1859274,
+            "wLat": 49.125366,
+            "pid": 138,
+            "index": 138,
+            "dbID": "y5LqkZQiQS",
+            "Poiname": "The Steveston Cafe & Hotel",
+            "Address": "12111 Third Ave, Richmond, BC V7E 3K1",
+            "Description": "The historic Steveston Hotel, formerly the Sockeye Hotel, was established in 1895 and has always been a popular meeting place for local residents, fishermen, and visitors.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.0041251,
+            "wLat": 49.23032503,
+            "pid": 139,
+            "index": 139,
+            "dbID": "V9ffJIzUcN",
+            "Poiname": "Element by Westin Vancouver Metrotown",
+            "Address": "5988 Willingdon Ave, Burnaby, BC V5H 2A7",
+            "Description": "Surrounded by many of the most prominent destinations in the Lower Mainland, Element Vancouver Metrotown offers unrivaled access to Deer Lake Park, Simon Fraser University and Metropolis at Metrotown. Additionally, we're just steps from Patterson and Metrotown Skytrain Stations which offer direct transportation to downtown Vancouver.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.1336589,
+            "wLat": 49.19073963,
+            "pid": 140,
+            "index": 140,
+            "dbID": "xJndHCKJIc",
+            "Poiname": "The Westin Wall Centre, Vancouver Airport",
+            "Address": "3099 Corvette Way, Richmond, BC V6X 4K3",
+            "Description": "The Westin Wall Centre, Vancouver Airport offers four-star stays in Richmond, BC, on the banks of the Fraser River. Find us minutes from Vancouver International Airport (YVR) and make us your gateway to Canada and the rest of the world.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.0222478,
+            "wLat": 49.26412059,
+            "pid": 141,
+            "index": 141,
+            "dbID": "ktWSxNPwAD",
+            "Poiname": "Accent Inn Burnaby",
+            "Address": "3777 Henning Dr, Burnaby, BC V5C 6N5",
+            "Description": "This Burnaby location has all the benefits of staying in downtown Vancouver (minus Vancouver prices). If you're looking for a 'quality hotel on all levels' this is the place to be.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -120.7870165,
+            "wLat": 49.06351659,
+            "pid": 142,
+            "index": 142,
+            "dbID": "sGASrCVQEV",
+            "Poiname": "Manning Park Resort",
+            "Address": "7500 BC-3, Manning Park, BC V0X 1R0",
+            "Description": "Looking for a way to reconnect with nature? A trip to Manning Park Resort will help you do exactly that! We're passionate about sharing fresh air adventures with our guests. So if you've been longing for quality time with your family away from the distractions of daily life, you're in the right place.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.1422498,
+            "wLat": 49.17069499,
+            "pid": 143,
+            "index": 143,
+            "dbID": "kffJ0WRxS3",
+            "Poiname": "Sheraton Vancouver Airport",
+            "Address": "7551 Westminster Hwy, Richmond, BC V6X 1A3",
+            "Description": "Located near the Vancouver International Airport, this is a great location to check in after you deplane - thanks to the hotel's complimentary shuttle service. Explore Richmond's attractions, including the Richmond Olympic Oval and CF Richmond, or hop on the SkyTrain to downtown Vancouver. Savour fresh, wholesome fare at Harold's Kitchen, sip a cocktail at Harold's Bar.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.1208262711851,
+            "wLat": 49.28801299008417,
+            "pid": 144,
+            "index": 144,
+            "dbID": "QIK5W15EYO",
+            "Poiname": "Vancouver Marriott Downtown ",
+            "pType": "hotel",
+            "Address": "1128 W Hastings St, Vancouver, BC V6E 2P4, Canada",
+            "Description": "Vancouver Marriott Downtown Hotel welcomes you to British Columbia with style, substance and award-winning hospitality. Ideally located in Coal Harbour in downtown Vancouver, we're moments away from the Vancouver Seawall, Stanley Park and shopping on Robson Street.",
+            "customType": "poi-hotel",
+            "customTag": [
+                "Room Night Deals"
+            ]
+        },
+        {
+            "wLon": -123.12831410170861,
+            "wLat": 49.27607898143898,
+            "pid": 145,
+            "index": 145,
+            "dbID": "N5wD7gJwCK",
+            "Poiname": "GEC Granville Suites Hotel",
+            "Address": "718 Drake St, Vancouver, BC V6Z 2W6, Canada",
+            "Description": "GEC Granville Suites is a former Best Western Plus hotel located in the heart of Downtown Vancouver's Granville Entertainment District, surrounded by a plethora of amenities. ",
+            "customType": "poi-hotel"
+        },
+        {
+            "wLon": -123.135532,
+            "wLat": 49.29182883,
+            "pid": 146,
+            "index": 146,
+            "dbID": "SrqVFZnmX5",
+            "Poiname": "Times Square Suites Hotel",
+            "Address": "1821 Robson St, Vancouver, BC V6G 3E4",
+            "Description": "Located on the edge of Stanley Park, Times Square Suites Hotel recommends a visit to the Stanley Park BrewPub.",
+            "customType": "poi-hotel"
+        },
+        {
+            "wLon": -123.1131187,
+            "wLat": 49.27850538,
+            "pid": 147,
+            "index": 147,
+            "dbID": "sWG1TlnHe4",
+            "Poiname": "YWCA Hotel",
+            "Address": "733 Beatty St, Vancouver, BC V6B 2M4",
+            "Description": "When you stay with us, you’re supporting local communities. Our hotel revenue helps fund YWCA community programs for women, children and families.",
+            "customType": "poi-hotel"
+        },
+        {
+            "wLon": -123.1581907,
+            "wLat": 49.32695338,
+            "pid": 148,
+            "index": 148,
+            "dbID": "SwjOt7aylo",
+            "Poiname": "Vancouver's North Shore Tourism Association",
+            "Address": "1570 Argyle Ave, West Vancouver, BC V7V 1A1",
+            "Description": "Vancouver's North Shore is made up of a collection of neighbourhoods, each with its own personality and vibe. With our neighbourhoods so close to our wilderness you can dip in and out of outdoor recreation for cultural experiences, dining, and shopping. No day on the North Shore is ever the same as there is so much to do and see.",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.0767503,
+            "wLat": 49.31402268,
+            "pid": 149,
+            "index": 149,
+            "dbID": "CA1FbGj3tp",
+            "Poiname": "North Shore Culture Compass",
+            "Address": "335 Lonsdale Ave, North Vancouver, BC V7M 2G3",
+            "Description": "The North Shore Culture Compass is a free online map that visualizes the rich cultural offerings of Vancouver's North Shore. An accessible navigational tool featuring key information about points of interest, the Culture Compass encourages local residents and tourists alike to connect with the arts, heritage, and stories of the North Shore. From museums to natural places, annual festivals to art galleries, the map encompasses the cultural diversity of the region.",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.0830598,
+            "wLat": 49.30994708,
+            "pid": 150,
+            "index": 150,
+            "dbID": "sVLo3K3gkD",
+            "Poiname": "The Shipyards District",
+            "Address": "145 Chadwick Ct #220, North Vancouver, BC V7M 3K1",
+            "Description": "This is a neighbourhood like no other. Centrally located on North Vancouver's vibrant waterfront with unobstructed views of Vancouver's stunning skyline to the south and the soaring NorthShore Mountains to the north. Our scavenger hunt will allow you to enjoy the best of our food, culture, and history.",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.1067711,
+            "wLat": 49.28338539,
+            "pid": 152,
+            "index": 152,
+            "dbID": "MVHyUMzO90",
+            "Poiname": "Gastown",
+            "Address": "227 Abbott St, Vancouver, BC V6B 2K7",
+            "Description": "You are about to experience a neighbourhood whose distinct identity is rooted in its rich history. Impeccably curated decor studios, thriving fashion boutiques and some of the best culinary fare in the city can be found within character rich spaces and turn of the century architecture.",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.1383291,
+            "wLat": 49.28963501,
+            "pid": 153,
+            "index": 153,
+            "dbID": "E4PMUhVg1C",
+            "Poiname": "West End",
+            "Address": "975 Denman St, Vancouver, BC V6G 2M3",
+            "Description": "The West End is home to Three Great Streets: Davie, Denman & Robson. Our diverse community of people, businesses, buildings and activities, along with our proximity to English Bay and Stanley Park creates 'One Amazing Neighbourhood!",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.1216008,
+            "wLat": 49.28747771,
+            "pid": 154,
+            "index": 154,
+            "dbID": "mGRi3wItAN",
+            "Poiname": "Downtown Vancouver BIA",
+            "Address": "1130 W Pender St #325, Vancouver, BC V6E 4A4",
+            "Description": "Downtown Vancouver is the heart of our beautiful city, and offers countless activities and events for both visitors and locals alike. The downtown core area spans over 90 blocks with over 1000 shops to choose from. Visit iconic locations like the Olympic Cauldron at Jack Poole Plaza or take a stroll through any number of our public Perch spaces where you can sit down, relax, and take in the view.",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.1228743,
+            "wLat": 49.27433677,
+            "pid": 155,
+            "index": 155,
+            "dbID": "awUdQgBtSk",
+            "Poiname": "Yaletown BIA",
+            "Address": "1226 Hamilton St, Vancouver, BC V6B 2S8",
+            "Description": "Visit one of Vancouver's historic district(s) where it was once a railway hub, but it is now known for its bustling nightlife, unique boutiques, award winning spas and salons, exquisite culinary scene, and innovative companies.",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.1009788,
+            "wLat": 49.25732544,
+            "pid": 156,
+            "index": 156,
+            "dbID": "5uq4xgLnq2",
+            "Poiname": "Mount Pleasant BIA",
+            "Address": "301-3102 Main St, Vancouver, BC V5T 3G7",
+            "Description": "Mount Pleasant is known for dining spots featuring local and international cuisine, craft breweries and unique shops. This neighbourhood boasts a lively artistic scene being home to more than 130 murals.",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.1351269,
+            "wLat": 49.27244665,
+            "pid": 157,
+            "index": 157,
+            "dbID": "07D5YZC4K6",
+            "Poiname": "Granville Island",
+            "Address": "1689 Johnston St, Vancouver, BC V6H 3R9",
+            "Description": "One of the most beloved public spaces in Vancouver, Granville Island is home to the Public Market and its 50+ vendors, as well as over 200 artist studios, small businesses, boutiques, and multiple annual festivals, making us a cultural capital in False Creek! Granville Island's industrial heritage is preserved in the buildings, originally factories built in the early 20th century. With 8 theatres, 9 happy hours, restaurants and more, Granville Island is just as inviting during the day as it is at night.",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.1519346,
+            "wLat": 49.26811085,
+            "pid": 158,
+            "index": 158,
+            "dbID": "7spmbuuKtD",
+            "Poiname": " Kitsilano West 4th BIA",
+            "Address": "2041 W 4th Ave, Vancouver, BC V6J 1N3",
+            "Description": "Everything you need all in one neighbourhood. Visit Vancouver’s\nfavourite boutiques, restaurants and more.",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.1157585,
+            "wLat": 49.2621701,
+            "pid": 159,
+            "index": 159,
+            "dbID": "xc37RFs0Oj",
+            "Poiname": "Cambie Village",
+            "Address": "500 W 10th Ave, Vancouver, BC V5Z 4P1",
+            "Description": "The Heart of Vancouver. Murals. Romance. Unique shops. Big box stores. And more!",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.1390340580905,
+            "wLat": 49.26389803446695,
+            "pid": 160,
+            "index": 160,
+            "dbID": "SLkLYUkElb",
+            "Poiname": "South Granville BIA",
+            "pType": "store",
+            "Address": "1501 W Broadway #210, Vancouver, BC V6J 4Z6, Canada",
+            "Description": "Centrally located from the Granville Bridge to 16th, South Granville is Vancouver’s premiere boutique and lifestyle neighbourhood! Explore fascinating art galleries, visit incredible fashion boutiques, be pampered in beauty salons and spas, and enjoy delicious food from the eclectic cuisines of our eateries. Treat Yourself in South Granville!",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.1806736,
+            "wLat": 49.1254322,
+            "pid": 161,
+            "index": 161,
+            "dbID": "VWGfCLEWAf",
+            "Poiname": "Steveston Village",
+            "Address": "4011 Moncton St, Richmond, BC V7E 3A8",
+            "Description": "Discover the unique waterfront Village of Steveston, home to Richmond's Fisherman's Wharf, historic sites and museums, scenic riverside boardwalk and popular shops and restaurants.",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -122.8938518,
+            "wLat": 49.24562722,
+            "pid": 162,
+            "index": 162,
+            "dbID": "o3jDj6JNod",
+            "Poiname": "North Road BIA",
+            "Address": "303-9940 Lougheed Hwy., Burnaby, BC V3J 1N3",
+            "Description": "Our area is perhaps best described as \"K Town\", Korea Town. We are in the midst of huge development here on North Road and there are plenty of coffee shops, restaurants of all kinds and great shopping. The night life is great here too!",
+            "customType": "poi-neighbourhood",
+            "customTag": [
+                "Neighbourhood"
+            ]
+        },
+        {
+            "wLon": -123.01573821521811,
+            "wLat": 49.281087215654516,
+            "pid": 163,
+            "index": 163,
+            "dbID": "YeMFNEI53M",
+            "Poiname": "The Heights",
+            "Address": "4019 Hastings St, Burnaby, BC V5C 2J1, Canada",
+            "Description": "Since 1908, with the arrival of the streetcar on Hastings Street, Burnaby Heights has been home to a vibrant commercial district. Today, the Heights has grown into a beautiful, culturally diverse area.",
+            "customType": "poi-neighbourhood"
+        },
+        {
+            "wLon": -123.24957550720171,
+            "wLat": 49.265908992644775,
+            "pid": 164,
+            "index": 164,
+            "dbID": "PH53KJslZ3",
+            "Poiname": "The University of British Columbia",
+            "Address": "6163 University Blvd, Vancouver, BC V6T 1Z1, Canada",
+            "Description": "UBC is one of the best places to visit in Vancouver for both tourists and locals. Just 25 minutes from downtown, the Vancouver campus is a special destination, brimming with West Coast scenery, world-class attractions and warm hospitality.",
+            "customType": "poi-neighbourhood"
+        },
+        {
+            "wLon": -123.04165476302097,
+            "wLat": 49.28253730370964,
+            "pid": 165,
+            "index": 165,
+            "dbID": "xcaMcwhOZy",
+            "Poiname": "Pacific National Exhibition at Hastings Park",
+            "Address": "2901 E Hastings St, Vancouver, BC V5K 5J1, Canada",
+            "Description": "Since 1910, millions of guests have enjoyed shows, exhibits, sporting events, amusement rides, concerts, cultural activities and, of course, the annual summer Fair at the PNE. </p>\n<p>For Tourism Challenge participants Visit the PNE Administration Building (reception) 9:30am-3pm, Monday-Friday (closed May 22) to pick up your scavenger hunt.",
+            "customType": "poi-neighbourhood"
+        },
+        {
+            "wLon": -122.73220486920847,
+            "wLat": 49.10449371031667,
+            "pid": 166,
+            "index": 166,
+            "dbID": "MkPbmo02Wy",
+            "Poiname": "Discover Surrey",
+            "Address": "17710 56a Ave, Surrey, BC V3S 5H8, Canada",
+            "Description": "Explore the iconic and vintage community of Cloverdale, one of Surrey’s six unique neighbourhoods. Check out the cute boutiques, retro shops, and fun eateries. Then visit the Museum of Surrey.",
+            "customType": "poi-neighbourhood"
+        },
+        {
+            "wLon": -122.62476508636921,
+            "wLat": 49.100720807806255,
+            "pid": 167,
+            "index": 167,
+            "dbID": "rHKktqM8k1",
+            "Poiname": "Langley",
+            "Address": "5385 216 St Unit 220, Langley, BC V2Y 2N3, Canada",
+            "Description": "Langley is the Fraser Valley’s premier wine and libations destination, and home of historical Fort Langley. You’ll also discover authentic farm experiences, beautiful parks and trails, trendy restaurants & lounges, exciting sport venues, captivating galleries, unique shopping, and so much more.",
+            "customType": "poi-neighbourhood"
+        },
+        {
+            "wLon": -121.78425421519947,
+            "wLat": 49.298819058239594,
+            "pid": 168,
+            "index": 168,
+            "dbID": "C3YC4s0Ain",
+            "Poiname": "Harrison River Valley",
+            "Address": "160 Lillooet Rd #102, Harrison Hot Springs, BC V0M 1K0, Canada",
+            "Description": "Harrison Village is a hidden jewel providing off the beaten path  activities such as forest bathing, hiking, kayaking, our Hot Springs and Sasquatch Museum.",
+            "customType": "poi-neighbourhood"
+        },
+        {
+            "wLon": -123.14578342199327,
+            "wLat": 49.70703983033538,
+            "pid": 169,
+            "index": 169,
+            "dbID": "PeOTjD4FWm",
+            "Poiname": "Squamish",
+            "Address": "38551 Loggers Ln #104, Squamish, BC V8B 0H2, Canada",
+            "Description": "Travel by car, private transfer, shuttle, or tour organized by your Concierge. Visit the Sea-To- Sky Gondola and experience the picturesque views. Enjoy rafting adventures, eagle tours, and guided tours to experience Howe Sound’s Stawamus Chief, Shannon Falls, and the Britannia Mine Museum.",
+            "customType": "poi-neighbourhood"
+        },
+        {
+            "wLon": -123.1414471,
+            "wLat": 49.19799479,
+            "pid": 170,
+            "index": 170,
+            "dbID": "9lH1DuFOxQ",
+            "Poiname": "McArthurGlen Designer Outlet Vancouver Airport",
+            "Address": "7899 Templeton Station Rd #1000, Richmond, BC V7B 0B7",
+            "Description": "Discover fun, food, and designer fashion for up to 70% less. Located just 3 minutes from Vancouver International Airport & 20 minutes from Downtown. Imagine grabbing the best deals and latest trends while strolling through a quaint outdoor shopping village inspired by classic European architecture, while enjoying an international array of cafes and restaurants, complimentary parking and more than 80 stores.",
+            "customType": "poi-sightseeing",
+            "customTag": [
+                "Other"
+            ]
+        },
+        {
+            "wLon": -123.1114481,
+            "wLat": 49.28862152,
+            "pid": 171,
+            "index": 171,
+            "dbID": "CJZfgLbulh",
+            "Poiname": "Vancouver Convention Centre",
+            "Address": "1055 Canada Pl, Vancouver, BC V6C 0C3",
+            "Description": "The Vancouver Convention Centre is the world's first double LEED Platinum-certified convention centre, proudly hosting hundreds of events each year and welcoming thousands of guests from around the world.",
+            "customType": "poi-sightseeing",
+            "customTag": [
+                "Other"
+            ]
+        },
+        {
+            "wLon": -123.11496376991462,
+            "wLat": 49.25469998737999,
+            "pid": 172,
+            "index": 172,
+            "dbID": "U43or37EiD",
+            "Poiname": "Walrus",
+            "Address": "3408 Cambie St, Vancouver, BC V5Z 2W8, Canada",
+            "customType": "poi-store"
+        },
+        {
+            "wLon": -123.11496041715336,
+            "wLat": 49.254743754145714,
+            "pid": 173,
+            "index": 173,
+            "dbID": "aMKc5cKmBh",
+            "Poiname": "Kaboodles Toy Store",
+            "Address": "3404 Cambie St, Vancouver, BC V5Z 2W8, Canada",
+            "customType": "poi-store"
+        },
+        {
+            "wLon": -123.1190417,
+            "wLat": 49.2835559,
+            "pid": 174,
+            "index": 174,
+            "dbID": "NWOPhk2RVH",
+            "Poiname": "Sense, A Rosewood Spa at the Hotel Georgia",
+            "Address": "801 W Georgia St, Vancouver, BC V6C 1P7",
+            "Description": "Designed to stimulate the senses and to restore the mind and body, Sense, A Rosewood Spa is an intimate luxury retreat.",
+            "customType": "poi-spa",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.1138093,
+            "wLat": 49.24201959,
+            "pid": 175,
+            "index": 175,
+            "dbID": "IuVAr9lP1u",
+            "Poiname": "Bloedel Conservatory, Queen Elizabeth Park",
+            "Address": "4600 Cambie St, Vancouver, BC V5Y 2M4",
+            "Description": "Bloedel Conservatory is a domed lush paradise located in Queen Elizabeth Park atop the City of Vancouver’s highest point. More than 100 exotic birds, and 500 exotic plants and flowers thrive within its temperature-controlled environment.</p>\n<p> ",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -122.95306233051974,
+            "wLat": 50.117837502781,
+            "pid": 176,
+            "index": 176,
+            "dbID": "TBeq3RkXYD",
+            "Poiname": "Audain Art Museum",
+            "Address": "4350 Blackcomb Way, Whistler, BC V8E 1N3, Canada",
+            "Description": "Established in 2016, the Audain Art Museum is a leading arts organization founded upon the major philanthropic gift of Michael Audain and Yoshiko Karasawa.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -123.05818377287812,
+            "wLat": 49.083508990753835,
+            "pid": 177,
+            "index": 177,
+            "dbID": "682RZzLAzu",
+            "Poiname": "Douglas J. Husband Discovery Centre",
+            "Address": "4450 Clarence Taylor Crescent, Delta, BC V4K 3W3, Canada",
+            "Description": "The Douglas J. Husband Discovery Centre is an accessible space for dialogue and discovery about our community’s past, present, and future. Featuring authentic objects, digital experiences, and fascinating stories, all are welcome to engage with Delta’s storied history",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -122.80583311519942,
+            "wLat": 49.30337673855078,
+            "pid": 178,
+            "index": 178,
+            "dbID": "hV38E5Jn0R",
+            "Poiname": "Colossal Creations Replica Museum",
+            "Address": "2963 Forestridge Pl, Coquitlam, BC V3E 3M6, Canada",
+            "Description": "The Replica Museum Features 100 + works of art including replica paintings of Leonardo DaVinci, Vincent Van Gogh, Eugene Delacroix and many more.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -122.84261433425677,
+            "wLat": 49.06496363150183,
+            "pid": 179,
+            "index": 179,
+            "dbID": "DGwYGdPpd5",
+            "Poiname": "Historic Stewart Farm",
+            "Address": "13723 Crescent Rd, Surrey, BC V4P 1J4, Canada",
+            "Description": "Welcome to your local heritage site, a gem nestled on Crescent Road along the Nikomekl River, where history comes alive, telling the story of a hardworking Surrey family in the early 1900s.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -122.264826758,
+            "wLat": 49.0280492,
+            "pid": 180,
+            "index": 180,
+            "dbID": "ptsyJEUHVP",
+            "Poiname": "Ecodairy Farm Discovery Centre ",
+            "Address": "1356 Sumas Way, Abbotsford, BC V2S 8R1, Canada",
+            "Description": "We invite you to visit the EcoDairy for a fun and authentic farm experience including the sights, sounds and smells of the farm.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -122.91125424262873,
+            "wLat": 49.2016016519224,
+            "pid": 181,
+            "index": 181,
+            "dbID": "HhDNgMVgNt",
+            "Poiname": "Anvil Centre ",
+            "Address": "777 Columbia St, New Westminster, BC V3M 1B6, Canada",
+            "Description": "Designed to accommodate a wide variety of events, community programs, workshops, and cultural experiences, Anvil Centre is a fusion of ideas, energies and cultures.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -122.90620724403819,
+            "wLat": 49.207745744760956,
+            "pid": 182,
+            "index": 182,
+            "dbID": "FYC30WPbNv",
+            "Poiname": "Irving House",
+            "Address": "302 Royal Ave, New Westminster, BC V3L 1H7, Canada",
+            "Description": "Our exhibits focus on the land, people, and development of the place now known as New Westminster. We aspire to be fun and entertaining places of learning and use the objects in the museum’s collection as an entry-point to inquiry, discussion, and exploration about the city.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -122.32739795938741,
+            "wLat": 49.05271826025933,
+            "pid": 183,
+            "index": 183,
+            "dbID": "LFVXKukP56",
+            "Poiname": "The Reach Gallery Museum",
+            "Address": "32388 Veterans Way, Abbotsford, BC V2T 0B3, Canada",
+            "Description": "The mission of The Reach is to be the center of cultural and creative innovation in the Fraser Valley.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -123.18069107287693,
+            "wLat": 49.125540279317406,
+            "pid": 184,
+            "index": 184,
+            "dbID": "buCzM7HPge",
+            "Poiname": "Steveston Tram",
+            "Address": "4011 Moncton St, Richmond, BC V7E 3A8, Canada",
+            "Description": "The Steveston Tram museum features Tram Car 1220, one of the original trams that ran on Richmond’s Interurban rail system. Today, the immaculately restored tram car and the building that houses it, allow visitors to experience authentic Interurban rail travel and learn about early 20th century transportation.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -121.956973594964,
+            "wLat": 49.235766314561936,
+            "pid": 185,
+            "index": 185,
+            "dbID": "nDO2XB9Ut6",
+            "Poiname": "Kilby Historic Site",
+            "Address": "215 Kilby Rd, Harrison Mills, BC V0M 1L0, Canada",
+            "Description": "The Kilby Historic Site prides itself in portraying the living history of the Kilby family, general store, and farm. The grounds surrounding the general store are approximately 3 hectares which we have preserved as the working farm it once was, the Waterloo Farm Museum.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -122.22363320171554,
+            "wLat": 49.03889494657371,
+            "pid": 186,
+            "index": 186,
+            "dbID": "VdUJzv8paB",
+            "Poiname": "Castle Fun Park",
+            "Address": "36165 N Parallel Rd, Abbotsford, BC V3G 2K8, Canada",
+            "Description": "Amusement park with kid-friendly rides, go-karting & bowling, plus over 200 arcade games.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -123.16053340169519,
+            "wLat": 49.72709126681267,
+            "pid": 187,
+            "index": 187,
+            "dbID": "cAKQqCb0vL",
+            "Poiname": "Railway Museum of British Columbia",
+            "Address": "39645 Government Rd, Squamish, BC V8B 0B6, Canada",
+            "Description": "The West Coast Railway Association presents the story of how the railways were a catalyst in the creation of Western Canadian communities and their economies. ",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -122.9471955881919,
+            "wLat": 50.11876016219171,
+            "pid": 188,
+            "index": 188,
+            "dbID": "mb1wx7nKtL",
+            "Poiname": "Squamish Lil'wat Cultural Centre",
+            "Address": "4584 Blackcomb Way, Whistler, BC V8E 0Y3, Canada",
+            "Description": "We have built the Squamish Lil’wat Cultural Centre (SLCC) to share our cultural knowledge to inspire understanding and respect amongst all people , and we hope that by visiting our Cultural Centre, that you will embrace this vision and live by it.",
+            "customType": "poi-attraction"
+        },
+        {
+            "wLon": -123.11453161694169,
+            "wLat": 49.27819522013698,
+            "pid": 189,
+            "index": 189,
+            "dbID": "srlmyOm6eh",
+            "Poiname": "Azure Lounge at Hotel BLU",
+            "pType": "Food",
+            "Address": "177 Robson St, Vancouver, BC V6B 0N3, Canada",
+            "Description": "Made to order a la carte breakfast made with fresh ingredients with west coast flare.",
+            "customType": "poi-food",
+            "customTag": [
+                "Restaurant Offers"
+            ]
+        },
+        {
+            "wLon": -123.10376174578164,
+            "wLat": 49.28072657128506,
+            "pid": 190,
+            "index": 190,
+            "dbID": "WRYtWID8fq",
+            "Poiname": "Chinese Canadian Museum",
+            "pType": "attraction",
+            "Address": "27 E Pender St, Vancouver, BC V6A 1S9, Canada",
+            "Description": "The Chinese Canadian Museum Society of British Columbia was founded in March 2020 as an independent, non-profit society to establish and operate a public museum in British Columbia honouring Chinese Canadian history, contributions, and living heritage.",
+            "customType": "poi-attraction",
+            "customTag": [
+                "Free Attraction"
+            ]
+        },
+        {
+            "wLon": -123.25970845683825,
+            "wLat": 49.266241967147046,
+            "pid": 191,
+            "index": 191,
+            "dbID": "fLDRpkx3ve",
+            "Poiname": "Nitobe Memorial Garden",
+            "Address": "1895 Lower Mall, Vancouver, BC V6T, Canada",
+            "customType": "poi-attraction"
+        }
+    ],
+    "anchors": [
+        {
+            "id": 0,
+            "wLon": -121.44896667827625,
+            "wLat": 49.78032121834725,
+            "endLon": -121.44896667827625,
+            "endLat": 49.78032121834725,
+            "type": 0
+        }
+    ],
+    "sketches": [],
+    "texts": []
+}

@@ -1,0 +1,62 @@
+ALTER TABLE IF EXISTS TripUserRecord
+    ADD FOREIGN KEY (trip_id)
+    REFERENCES public."Trip" (trip_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+
+ALTER TABLE IF EXISTS public."TripUserRecord"
+    ADD FOREIGN KEY (user_id)
+    REFERENCES public."User" (user_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+
+ALTER TABLE IF EXISTS public."TripAttractionRecord"
+    ADD FOREIGN KEY (trip_id)
+    REFERENCES public."Trip" (trip_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+
+ALTER TABLE IF EXISTS public."TripAttractionRecord"
+    ADD FOREIGN KEY (attraction_id)
+    REFERENCES public."Attraction" (attraction_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+
+ALTER TABLE IF EXISTS public."CommentRecord"
+    ADD FOREIGN KEY (user_id)
+    REFERENCES public."User" (user_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+
+ALTER TABLE IF EXISTS public."CommentRecord"
+    ADD FOREIGN KEY (trip_attraction_id)
+    REFERENCES public."TripAttractionRecord" (trip_attraction_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+
+ALTER TABLE IF EXISTS public."VotingRecord"
+    ADD FOREIGN KEY (user_id)
+    REFERENCES public."User" (user_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+
+ALTER TABLE IF EXISTS public."VotingRecord"
+    ADD FOREIGN KEY (trip_attraction_id)
+    REFERENCES public."TripAttractionRecord" (trip_attraction_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
