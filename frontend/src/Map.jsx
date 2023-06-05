@@ -1,13 +1,12 @@
 import { useState, useRef, useEffect } from 'react'
-import './App.css'
 import mapboxgl from "mapbox-gl"
-
+import { Container } from 'react-bootstrap';
 
 mapboxgl.accessToken =
   'pk.eyJ1IjoiaGFydmV5dWJjIiwiYSI6ImNsaWRyenBieTB1dzgza3BmN2h3OTBmbW0ifQ.adlzsHRQg4Y4X0XJ8zLsCg';
 
-function App() {
-  const mapContainerRef = useRef<any>(null);
+function Map() {
+  const mapContainerRef = useRef(null);
   const [lng, setLng] = useState(5);
   const [lat, setLat] = useState(34);
   const [zoom, setZoom] = useState(1.5);
@@ -30,20 +29,22 @@ function App() {
       setZoom(map.getZoom());
     });
 
+    map.on('load', function () {
+      map.resize();
+  });
+ 
     // Clean up on unmount
     return () => map.remove();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div>
-      <div className='sidebarStyle'>
+    <Container fluid>
         <div>
           Longitude: {lng.toFixed(2)} | Latitude: {lat.toFixed(2)} | Zoom: {zoom.toFixed(2)}
         </div>
-      </div>
-      <div className='map-container' ref={mapContainerRef} />
-    </div>
+      <div className="map-container" ref={mapContainerRef} />
+    </Container>
   );
 };
 
-export default App
+export default Map

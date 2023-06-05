@@ -8,17 +8,16 @@ with open('data/schema.sql') as f:
 cur = connection.cursor()
 
 # User Data
-cur.execute("INSERT INTO USER (name, email) VALUES (?, ?)",
-            ('Harvey', 'harvey@email.com')
-            )
+init_user_data = [
+    ('Harvey', 'harvey@email.com'),
+    ('Jonah', 'jonah@email.com'),
+    ('Ethan', 'ethan@email.com')
+]
 
-cur.execute("INSERT INTO USER (name, email) VALUES (?, ?)",
-            ('Jonah', 'jonah@email.com')
-            )
-
-cur.execute("INSERT INTO USER (name, email) VALUES (?, ?)",
-            ('Ethan', 'ethan@email.com')
-            )
+for user_data in init_user_data:
+    cur.execute("INSERT INTO USER (name, email) VALUES (?, ?)",
+                user_data
+                )
 
 # Attraction Data
 with open("data/vancouver_attractions.json", encoding="utf8") as f:
