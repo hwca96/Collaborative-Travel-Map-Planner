@@ -1,15 +1,15 @@
 import './App.css'
 import Map from "./Map"
-import TopNavbar from './TopNavbar';
-import { Button } from 'react-bootstrap';
+import { Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './Home';
 
 function App() {
   return (
-    <div>
-      <TopNavbar />
-      <Map />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path='/map' element={<Map />} />
+    </Routes>
   );
 };
 
