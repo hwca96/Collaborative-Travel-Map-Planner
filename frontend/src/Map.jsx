@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import mapboxgl from "mapbox-gl"
 import { Container } from 'react-bootstrap';
+import TopNavbar from './TopNavbar';
 
 mapboxgl.accessToken =
   'pk.eyJ1IjoiaGFydmV5dWJjIiwiYSI6ImNsaWRyenBieTB1dzgza3BmN2h3OTBmbW0ifQ.adlzsHRQg4Y4X0XJ8zLsCg';
@@ -39,6 +40,7 @@ function Map() {
 
   return (
     <Container fluid>
+      <TopNavbar />
         <div>
           Longitude: {lng.toFixed(2)} | Latitude: {lat.toFixed(2)} | Zoom: {zoom.toFixed(2)}
         </div>
