@@ -10,7 +10,7 @@ import {
 function TopNavbar() {
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="/">Collab Travel Planner</Navbar.Brand>
+      <Navbar.Brand href="/">Traveling Penguins</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
