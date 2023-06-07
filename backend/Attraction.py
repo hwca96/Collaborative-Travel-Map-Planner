@@ -45,3 +45,18 @@ class Attraction:
         conn.commit()
         conn.close()
 
+    def add_comment(self, comment_text, user_id):
+        # TODO
+        print("TODO")
+
+    def delete_comment(self, comment_id, user_id):
+        # TODO
+        print("TODO")
+
+    def add_vote(self, vote_score, user_id):
+        # TODO
+        print("TODO")
+
+    def delete_vote(self, vote_id, user_id):
+        # TODO
+        print("TODO")

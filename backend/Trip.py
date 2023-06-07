@@ -51,10 +51,10 @@ class Trip:
         # TODO
         print("TODO")
 
-    def add_attraction(self, attraction_id):
+    def add_attraction(self, attraction_id, user_id):
         # TODO
         print("TODO")
 
-    def remove_attraction(self, attraction_id):
+    def remove_attraction(self, attraction_id, user_id):
         # TODO
         print("TODO")
