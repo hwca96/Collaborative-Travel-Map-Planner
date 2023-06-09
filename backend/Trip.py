@@ -58,3 +58,10 @@ class Trip:
     def remove_attraction(self, attraction_id, user_id):
         # TODO
         print("TODO")
+
+    def get_initial_coordinate_zoom(self):
+        """
+        Get the initial map zoom and coordinate based on the attractions inside this trip
+        """
+        # TODO
+        print("TODO")

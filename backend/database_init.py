@@ -53,7 +53,7 @@ connection.execute("INSERT INTO Trip (trip_name, trip_created_date) VALUES (?, ?
 connection.execute("INSERT INTO TripUserRecord (trip_id, user_id, role) VALUES (?, ?, ?)",  (1, 1, "Owner"))
 
 # Add attraction to trip
-for i in range(1,11):
+for i in range(1,101):
     connection.execute("INSERT INTO TripAttractionRecord (attraction_id, trip_id, user_created_id, added_date) VALUES (?, ?, ?, ?)",
                          (i, 1, 1, now))
 
