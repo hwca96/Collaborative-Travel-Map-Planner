@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS Attraction
     name TEXT NOT NULL,
     type TEXT NOT NULL,
     lat REAL NOT NULL,
-    long REAL NOT NULL,
+    lon REAL NOT NULL,
     address NOT NULL,
     description
 );
@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS TripUserRecord
 
 CREATE TABLE IF NOT EXISTS CommentRecord
 (
-    commnet_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    comment_id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_id INTEGER NOT NULL,
     trip_attraction_id INTEGER NOT NULL,
     comment_text text NOT NULL,
@@ -64,8 +64,8 @@ CREATE TABLE IF NOT EXISTS CommentRecord
 CREATE TABLE IF NOT EXISTS VotingRecord
 (
     voting_record_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    trip_attraction_id INTEGER NOT NULL,
     user_id INTEGER NOT NULL,
+    trip_attraction_id INTEGER NOT NULL,
     star_value INTEGER NOT NULL,
     FOREIGN KEY (trip_attraction_id) REFERENCES TripAttractionRecord(trip_attraction_id),
     FOREIGN KEY (user_id) REFERENCES User(user_id)

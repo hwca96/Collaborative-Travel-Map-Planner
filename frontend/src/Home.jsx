@@ -1,12 +1,14 @@
-import TopNavbar from './TopNavbar';
+import TopNavbar from "./TopNavbar";
 
 function Home() {
   return (
     <div>
       <TopNavbar />
-      <h1>Welcome to the best travel planner in the world!</h1>
+      <h1 className="d-flex justify-content-center">
+        Welcome to the best travel planner in the world!
+      </h1>
     </div>
   );
-};
+}
 
-export default Home
+export default Home;
