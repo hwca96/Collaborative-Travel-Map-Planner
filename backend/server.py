@@ -1,7 +1,7 @@
-from flask import Flask, request, json
+from flask import Flask, request
 from Trip import Trip
 import database_helper
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)

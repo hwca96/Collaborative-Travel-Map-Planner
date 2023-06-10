@@ -29,7 +29,7 @@ function TripMap() {
       {tripDetailedData ? (
             <Map attractions={tripDetailedData.attractions}/>
         ) : (
-          <div class="loader d-flex justify-content-center"> </div>
+          <div className="loader d-flex justify-content-center"> </div>
         )}
     </Container>
   );
