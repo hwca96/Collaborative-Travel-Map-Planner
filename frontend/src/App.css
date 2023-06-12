@@ -14,6 +14,12 @@
   .mapboxgl-popup {
     max-width: 500px;
     }
+  .div-scroll{
+    background-color: lightskyblue;
+    padding: 1rem;
+    max-height: 92vh;
+    overflow-y: auto;
+    }
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }

@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import Map from "./Map";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import TopNavbar from "./TopNavbar";
 import { useParams } from "react-router-dom";
 
@@ -27,7 +27,31 @@ function TripMap() {
     <Container fluid>
       <TopNavbar />
       {tripDetailedData ? (
-        <Map attractions={tripDetailedData.attractions} />
+        <Container fluid>
+          <Row>
+            <Col md={3}>
+              <div className="div-scroll">
+              {tripDetailedData.attractions.map((attraction, i) => {
+              return (
+                <Card
+                  style={{ width: "18rem" }}
+                  className="mx-auto text-center mb-2"
+                  border="primary"
+                  key={i}
+                >
+                  <Card.Body className="mx-auto text-center">
+                    {attraction.name}
+                  </Card.Body>
+                </Card>
+              );
+            })}
+              </div>
+            </Col>
+            <Col md={9}>
+              <Map attractions={tripDetailedData.attractions} />
+            </Col>
+          </Row>
+        </Container>
       ) : (
         <div className="loader d-flex justify-content-center"> </div>
       )}
