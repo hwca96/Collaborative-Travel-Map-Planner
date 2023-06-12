@@ -68,7 +68,7 @@ connection.execute(
 )
 connection.execute(
     "INSERT INTO TripUserRecord (trip_id, user_id, role) VALUES (?, ?, ?)",
-    (1, 1, "Owner"),
+    (1, 1, "Owner")
 )
 
 # Add attraction to trip

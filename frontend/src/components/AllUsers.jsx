@@ -35,14 +35,19 @@ function AllUsers() {
                   <Card.Body>
                     <Card.Title>{user.user_name}</Card.Title>
                     <Card.Text>{user.user_email}</Card.Text>
-                    <Button variant="primary" href={`/userTrips/${user.user_id}/view`}>Trips</Button>
+                    <Button
+                      variant="primary"
+                      href={`/userTrips/${user.user_id}/view`}
+                    >
+                      Trips
+                    </Button>
                   </Card.Body>
                 </Card>
               );
             })}
           </>
         ) : (
-          <div class="loader d-flex justify-content-center"> </div>
+          <div className="loader d-flex justify-content-center"> </div>
         )}
       </Container>
     </div>

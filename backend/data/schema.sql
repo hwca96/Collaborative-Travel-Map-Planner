@@ -46,6 +46,7 @@ CREATE TABLE IF NOT EXISTS TripUserRecord
     trip_id INTEGER NOT NULL,
     user_id INTEGER NOT NULL,
     role TEXT NOT NULL,
+    UNIQUE(trip_id, user_id),
     FOREIGN KEY (user_id) REFERENCES User(user_id),
     FOREIGN KEY (trip_id) REFERENCES Trip(trip_id)
 );
