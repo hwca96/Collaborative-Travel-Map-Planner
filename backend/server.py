@@ -1,7 +1,7 @@
-from flask import Flask, request, json
+from flask import Flask, request
 from Trip import Trip
 import database_helper
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
@@ -55,5 +55,15 @@ def attractions():
         "trip_created_date": t.created_date,
         "attractions": attraction_info
     }
+
+@app.route("/addUserToTrip", methods=['POST'])
+def addUserToTrip():
+    userId = request.get_json()['userId']
+    tripId = request.get_json()['tripId']
+    if database_helper.add_user_to_trip(userId, tripId):
+        return "", 200
+    else:
+        return "Error", 500
+
 if __name__ == "__main__":
     app.run(debug=True)

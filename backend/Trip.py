@@ -43,6 +43,8 @@ class Trip:
         conn.commit()
         conn.close()
 
+
+    # Users might not need to live in Trip
     def add_user(self, user_id):
         # TODO
         print("TODO")
@@ -50,7 +52,9 @@ class Trip:
     def remove_user(self, user_id):
         # TODO
         print("TODO")
+    #--------------------------------------------
 
+    # Attraction method
     def add_attraction(self, attraction_id, user_id):
         # TODO
         print("TODO")

@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import { Container } from "react-bootstrap";
-import TopNavbar from "./TopNavbar";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoiaGFydmV5dWJjIiwiYSI6ImNsaWRyenBieTB1dzgza3BmN2h3OTBmbW0ifQ.adlzsHRQg4Y4X0XJ8zLsCg";
@@ -22,9 +21,10 @@ function Map(props) {
       zoom: zoom,
     });
 
-    attractions.map((a) =>
-      new mapboxgl.Marker().setLngLat(a.coordinates).addTo(map)
-    );
+    attractions.map((a) => {
+      const popup = new mapboxgl.Popup().setHTML(`<h6>${a.name}</h6>`)
+      new mapboxgl.Marker().setLngLat(a.coordinates).setPopup(popup).addTo(map);
+    });
 
     // Add navigation control (the +/- zoom buttons)
     map.addControl(new mapboxgl.NavigationControl(), "top-right");

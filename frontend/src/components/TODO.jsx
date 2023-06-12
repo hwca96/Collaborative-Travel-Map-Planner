@@ -1,4 +1,4 @@
-import TopNavbar from './TopNavbar';
+import TopNavbar from "./TopNavbar";
 
 function TODO() {
   return (
@@ -7,6 +7,6 @@ function TODO() {
       <h1>TODO PLACEHOLDER</h1>
     </div>
   );
-};
+}
 
-export default TODO
+export default TODO;

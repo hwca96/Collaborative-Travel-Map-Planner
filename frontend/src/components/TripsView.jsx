@@ -1,7 +1,7 @@
 import TopNavbar from "./TopNavbar";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { Button, Card, Container } from "react-bootstrap";
+import { Button, Card, Container} from "react-bootstrap";
 
 function TripsView() {
   const routeParams = useParams();
@@ -20,7 +20,13 @@ function TripsView() {
   return (
     <div>
       <TopNavbar />
-      <h1 className="d-flex justify-content-center">All Trips</h1>
+      <h1 className="mx-auto text-center">All Trips</h1>
+      <div className="mx-auto p-3 text-center">
+        <Button variant="primary" href={`/joinTrip/${routeParams.id}`}>
+          Join a Trip
+        </Button>
+      </div>
+
       <Container className="d-flex justify-content-center">
         {tripData ? (
           <>
@@ -34,8 +40,15 @@ function TripsView() {
                 >
                   <Card.Body>
                     <Card.Title>Trip Name: {trip.trip_name}</Card.Title>
-                    <Card.Text>Number of Attractions: {trip.attraction_num}</Card.Text>
-                    <Button variant="primary" href={`/userTripMap/${trip.trip_id}`}>Detailed Map View</Button>
+                    <Card.Text>
+                      Number of Attractions: {trip.attraction_num}
+                    </Card.Text>
+                    <Button
+                      variant="primary"
+                      href={`/userTripMap/${trip.trip_id}`}
+                    >
+                      Detailed Map View
+                    </Button>
                   </Card.Body>
                 </Card>
               );
