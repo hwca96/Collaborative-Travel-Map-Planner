@@ -43,7 +43,6 @@ function TripMap() {
                     return (
                       <ListGroup.Item action key={i} onClick={() => {
                         setSelectedIndex(i)
-                        console.log(i)
                       }}>
                           {attraction.name}
                       </ListGroup.Item>
@@ -53,7 +52,7 @@ function TripMap() {
               </div>
             </Col>
             <Col md={9}>
-              <Map attractions={tripDetailedData.attractions} />
+              <Map attractions={tripDetailedData.attractions} selectedId={selectedIndex}/>
             </Col>
           </Row>
         </Container>
