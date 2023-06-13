@@ -1,12 +1,13 @@
 import { useState, useRef, useEffect } from "react";
 import Map from "./Map";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, ListGroup, Button } from "react-bootstrap";
 import TopNavbar from "./TopNavbar";
 import { useParams } from "react-router-dom";
 
 function TripMap() {
   const routeParams = useParams();
   const [tripDetailedData, setTripDetailedData] = useState(null);
+  const [selectedIndex, setSelectedIndex] = useState(null)
 
   // Initialize map when component mounts
   useEffect(() => {
@@ -30,21 +31,25 @@ function TripMap() {
         <Container fluid>
           <Row>
             <Col md={3}>
+              <Row>
+                <div className="mx-auto text-center">
+                <Button variant="outline-info mx-2">Add Attractions</Button>
+                <Button variant="outline-danger mx-2" disabled={selectedIndex === null}>Remove Attraction</Button>
+                </div>
+              </Row>
               <div className="div-scroll">
-              {tripDetailedData.attractions.map((attraction, i) => {
-              return (
-                <Card
-                  style={{ width: "18rem" }}
-                  className="mx-auto text-center mb-2"
-                  border="primary"
-                  key={i}
-                >
-                  <Card.Body className="mx-auto text-center">
-                    {attraction.name}
-                  </Card.Body>
-                </Card>
-              );
-            })}
+                <ListGroup>
+                  {tripDetailedData.attractions.map((attraction, i) => {
+                    return (
+                      <ListGroup.Item action key={i} onClick={() => {
+                        setSelectedIndex(i)
+                        console.log(i)
+                      }}>
+                          {attraction.name}
+                      </ListGroup.Item>
+                    );
+                  })}
+                </ListGroup>
               </div>
             </Col>
             <Col md={9}>

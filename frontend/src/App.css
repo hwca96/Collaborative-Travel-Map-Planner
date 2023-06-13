@@ -15,7 +15,7 @@
     max-width: 500px;
     }
   .div-scroll{
-    background-color: lightskyblue;
+    background-color: lightskyblue  ;
     padding: 1rem;
     max-height: 92vh;
     overflow-y: auto;

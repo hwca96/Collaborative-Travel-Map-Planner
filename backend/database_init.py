@@ -72,7 +72,7 @@ connection.execute(
 )
 
 # Add attraction to trip
-for i in range(1, 101):
+for i in range(1, 51):
     connection.execute(
         "INSERT INTO TripAttractionRecord (attraction_id, trip_id, user_created_id, added_date) VALUES (?, ?, ?, ?)",
         (i, 1, 1, now),
