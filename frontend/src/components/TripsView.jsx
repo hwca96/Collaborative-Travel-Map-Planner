@@ -22,8 +22,11 @@ function TripsView() {
       <TopNavbar />
       <h1 className="mx-auto text-center">All Trips</h1>
       <div className="mx-auto p-3 text-center">
-        <Button variant="primary" href={`/joinTrip/${routeParams.id}`}>
+        <Button variant="primary" className="mx-2" href={`/joinTrip/${routeParams.id}`}>
           Join a Trip
+        </Button>
+        <Button variant="primary" className="mx-2" href={`/createTrip/${routeParams.id}`}>
+          Create Trip
         </Button>
       </div>
 
@@ -34,12 +37,12 @@ function TripsView() {
               return (
                 <Card
                   style={{ width: "18rem" }}
-                  className="mb-2"
+                  className="mb-2 mx-1"
                   border="primary"
                   key={i}
                 >
                   <Card.Body>
-                    <Card.Title>Trip Name: {trip.trip_name}</Card.Title>
+                    <Card.Title>{trip.trip_name}</Card.Title>
                     <Card.Text>
                       Number of Attractions: {trip.attraction_num}
                     </Card.Text>
@@ -55,7 +58,7 @@ function TripsView() {
             })}
           </>
         ) : (
-          <div class="loader d-flex justify-content-center"> </div>
+          <div className="loader d-flex justify-content-center"> </div>
         )}
       </Container>
     </div>

@@ -65,5 +65,17 @@ def addUserToTrip():
     else:
         return "Error", 500
 
+@app.route("/createTrip", methods=['POST'])
+def createTrip():
+    requestBody = request.get_json()
+    userId = requestBody['userId']
+    tripname = requestBody['tripName']
+    startDate = requestBody['startDate']
+    endDate = requestBody['endDate']
+    if database_helper.createTrip(userId, tripname, startDate, endDate):
+        return "", 200
+    else:
+        return "Error", 500
+
 if __name__ == "__main__":
     app.run(debug=True)

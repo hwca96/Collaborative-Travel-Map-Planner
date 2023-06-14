@@ -1,4 +1,5 @@
 import sqlite3
+from datetime import datetime
 
 
 def get_db_connections():
@@ -37,6 +38,28 @@ def add_user_to_trip(userId, tripId, role="User"):
         cursor.execute(
             "INSERT INTO TripUserRecord (trip_id, user_id, role) VALUES (?, ?, ?)",
             (tripId, userId, role))
+        return True
+    except:
+        return False
+    finally:
+        # committing and closing connection
+        conn.commit()
+        conn.close()
+
+def createTrip(userId, tripName, tripStartStr, tripEndStr):
+    conn = get_db_connections()
+    cursor = conn.cursor()
+    try:
+        format = "%Y-%m-%d"
+        startDate = datetime.strptime(tripStartStr, format).date()
+        endDate = datetime.strptime(tripEndStr, format).date()
+        cursor.execute(
+            "INSERT INTO Trip (trip_name, trip_created_date, trip_start_date, trip_end_date) VALUES (?, ?, ?, ?)",
+            (tripName, datetime.now(), startDate, endDate))
+        tripId = cursor.lastrowid
+        cursor.execute(
+            "INSERT INTO TripUserRecord (trip_id, user_id, role) VALUES (?, ?, ?)",
+            (tripId, userId, "Owner"))
         return True
     except:
         return False
