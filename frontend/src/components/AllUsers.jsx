@@ -28,7 +28,7 @@ function AllUsers() {
               return (
                 <Card
                   style={{ width: "18rem" }}
-                  className="mb-2"
+                  className="mb-2 mx-2"
                   border="primary"
                   key={i}
                 >

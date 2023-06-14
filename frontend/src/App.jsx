@@ -8,6 +8,7 @@ import TripsView from "./components/TripsView";
 import TODO from "./components/TODO";
 import TripMap from "./components/TripMap";
 import JoinTrip from "./components/JoinTrip";
+import CreateTrip from "./components/CreateTrip";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/userTrips/:id/view" element={<TripsView />} />
       <Route path="/userTripMap/:id" element={<TripMap />} />
       <Route path="/joinTrip/:userId" element={<JoinTrip />} />
+      <Route path="/createTrip/:userId" element={<CreateTrip />} />
     </Routes>
   );
 }

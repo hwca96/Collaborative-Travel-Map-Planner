@@ -7,6 +7,7 @@ mapboxgl.accessToken =
 
 function Map(props) {
   const attractions = props.attractions;
+  var selectedId = props.selectedId;
   const mapContainerRef = useRef(null);
   const [lng, setLng] = useState(-122.41);
   const [lat, setLat] = useState(49.53);
@@ -22,7 +23,7 @@ function Map(props) {
     });
 
     attractions.map((a) => {
-      const popup = new mapboxgl.Popup().setHTML(`<h6>${a.name}</h6>`)
+      const popup = new mapboxgl.Popup().setHTML(`<h6>${a.name}</h6>`);
       new mapboxgl.Marker().setLngLat(a.coordinates).setPopup(popup).addTo(map);
     });
 
@@ -39,9 +40,14 @@ function Map(props) {
       map.resize();
     });
 
+    if (selectedId !== null) {
+      map.flyTo({ center: attractions[selectedId].coordinates, essential: true, zoom: 15 });
+      map._markers[selectedId].togglePopup();
+    }
+
     // Clean up on unmount
     return () => map.remove();
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [selectedId]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <Container fluid>
