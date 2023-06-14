@@ -1,6 +1,7 @@
 import database_helper
 from Attraction import Attraction
 from User import User
+from statistics import median
 
 
 class Trip:
@@ -46,12 +47,10 @@ class Trip:
 
     # Users might not need to live in Trip
     def add_user(self, user_id):
-        # TODO
-        print("TODO")
+        self.users.append([user_id])
 
     def remove_user(self, user_id):
-        # TODO
-        print("TODO")
+        self.users.remove([user_id])
     #--------------------------------------------
 
     # Attraction method
@@ -66,6 +65,23 @@ class Trip:
     def get_initial_coordinate_zoom(self):
         """
         Get the initial map zoom and coordinate based on the attractions inside this trip
+
+        return dictionaray of size 2
         """
         # TODO
-        print("TODO")
+    
+        x_coords = []
+        y_coords = []
+        
+        for attraction in self.attractions:
+            x_coords.append([attraction.lon])
+            y_coords.append([attraction.lat])
+        x = median(x_coords)
+        y = median(y_coords)
+        x_min = min(x_coords)
+        x_max = max(x_coords)
+        y_min = min(y_coords)
+        y_max = max(y_coords)
+        zoom = max(x - x_min, x_max - x, y - y_min, y_max - y)
+
+        return {"Center" : [x, y], "Zoom" : zoom}
