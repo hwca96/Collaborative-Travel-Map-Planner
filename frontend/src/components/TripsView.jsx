@@ -44,6 +44,9 @@ function TripsView() {
                   <Card.Body>
                     <Card.Title>{trip.trip_name}</Card.Title>
                     <Card.Text>
+                      Trip ID: {trip.trip_id}
+                    </Card.Text>
+                    <Card.Text>
                       Number of Attractions: {trip.attraction_num}
                     </Card.Text>
                     <Button

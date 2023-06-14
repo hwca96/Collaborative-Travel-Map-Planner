@@ -42,6 +42,7 @@ function Map(props) {
 
     if (selectedId !== null) {
       map.flyTo({ center: attractions[selectedId].coordinates, essential: true, zoom: 15 });
+      map._markers[selectedId].togglePopup();
     }
 
     // Clean up on unmount
