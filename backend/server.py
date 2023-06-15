@@ -45,7 +45,7 @@ def attractions():
             "address": a.address,
             "description": a.description,
             "num_comments": len(a.comments),
-            "average_vote_score": 5 #TODO
+            "average_vote_score": a.get_average_vote()
         })
     return {
         "trip_id": t.id,

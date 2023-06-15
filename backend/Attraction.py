@@ -60,3 +60,13 @@ class Attraction:
     def delete_vote(self, vote_id, user_id):
         # TODO
         print("TODO")
+
+    def get_average_vote(self):
+        if (len(self.votes) > 0):
+            sum = 0
+            for v in self.votes:
+                sum += v.starValue
+            return int(sum/len(self.votes))
+        else:
+            return 0
+

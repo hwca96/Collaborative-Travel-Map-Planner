@@ -23,7 +23,22 @@ function Map(props) {
     });
 
     attractions.map((a) => {
-      const popup = new mapboxgl.Popup().setHTML(`<h6>${a.name}</h6>`);
+      // const popup = new mapboxgl.Popup().setHTML(`
+      // <h6>${a.name}</h6>
+      // <h6>${a.address}<h6/>
+      // `);
+      const popup = new mapboxgl.Popup().setHTML(`
+      <div class="card">
+      <div class="card-header">
+        Voting Average: ${a.average_vote_score}
+      </div>
+      <div class="card-body">
+        <h5 class="card-title" style="font-weight: bold">${a.name}</h5>
+        <p class="card-text">${a.address}</p>
+        <a href="#" class="btn btn-primary">Details</a>
+       </div>
+      </div>
+      `);
       new mapboxgl.Marker().setLngLat(a.coordinates).setPopup(popup).addTo(map);
     });
 
@@ -41,7 +56,11 @@ function Map(props) {
     });
 
     if (selectedId !== null) {
-      map.flyTo({ center: attractions[selectedId].coordinates, essential: true, zoom: 15 });
+      map.flyTo({
+        center: attractions[selectedId].coordinates,
+        essential: true,
+        zoom: 15,
+      });
       map._markers[selectedId].togglePopup();
     }
 
