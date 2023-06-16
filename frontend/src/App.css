@@ -15,9 +15,8 @@
     max-width: 500px;
     }
   .div-scroll{
-    background-color: lightskyblue  ;
     padding: 1rem;
-    max-height: 92vh;
+    max-height: 90vh;
     overflow-y: auto;
     }
   @keyframes spin {

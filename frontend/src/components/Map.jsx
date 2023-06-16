@@ -23,10 +23,6 @@ function Map(props) {
     });
 
     attractions.map((a) => {
-      // const popup = new mapboxgl.Popup().setHTML(`
-      // <h6>${a.name}</h6>
-      // <h6>${a.address}<h6/>
-      // `);
       const popup = new mapboxgl.Popup().setHTML(`
       <div class="card">
       <div class="card-header">

@@ -3,27 +3,57 @@ import Map from "./Map";
 import { Container, Row, Col, Card, ListGroup, Button } from "react-bootstrap";
 import TopNavbar from "./TopNavbar";
 import { useParams } from "react-router-dom";
+import AttractionCollapse from "./AttractionCollapse";
+import { Accordion } from "react-bootstrap";
 
 function TripMap() {
   const routeParams = useParams();
   const [tripDetailedData, setTripDetailedData] = useState(null);
-  const [selectedIndex, setSelectedIndex] = useState(null)
+  const [selectedIndex, setSelectedIndex] = useState(null);
 
   // Initialize map when component mounts
   useEffect(() => {
     // fetch detailed trip data
-    fetch(`http://localhost:5000/tripDetails?id=${routeParams.id}`, {
-      method: "GET",
-      headers: {
-        "Access-Control-Allow-Origin": "http://localhost:5000/",
-      },
-    })
+    fetch(
+      `http://localhost:5000/tripDetails?id=${routeParams.tripAttractionId}`,
+      {
+        method: "GET",
+        headers: {
+          "Access-Control-Allow-Origin": "http://localhost:5000/",
+        },
+      }
+    )
       .then((response) => response.json())
       .then((json) => {
         setTripDetailedData(json);
       })
       .catch((error) => console.error(error));
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  function handleDelete(attraction, tripId) {
+    // TODO
+    const data = {
+      tripAttractionId: attraction.attraction_id,
+      userId: routeParams.userId,
+      tripId: tripId
+    };
+    fetch(`http://localhost:5000/deleteAttraction`, {
+      method: "DELETE",
+      headers: {
+        "Access-Control-Allow-Origin": "http://localhost:5000/",
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify(data),
+    }).then((response) => {
+      if (response.status === 200) {
+        alert(`Successfully Deleted ${attraction.name}`);
+        window.location.reload(false);
+      } else {
+        alert("Something went wrong");
+      }
+    });
+    console.log("Deleted");
+  }
   return (
     <Container fluid>
       <TopNavbar />
@@ -32,27 +62,49 @@ function TripMap() {
           <Row>
             <Col md={3}>
               <Row>
-                <div className="mx-auto text-center">
-                <Button variant="outline-info mx-2">Add Attractions</Button>
-                <Button variant="outline-danger mx-2" disabled={selectedIndex === null}>Remove Attraction</Button>
-                </div>
+                <Row>
+                  <h3>Added Attraction</h3>
+                </Row>
               </Row>
               <div className="div-scroll">
-                <ListGroup>
+                <Accordion flush>
                   {tripDetailedData.attractions.map((attraction, i) => {
                     return (
-                      <ListGroup.Item action key={i} onClick={() => {
-                        setSelectedIndex(i)
-                      }}>
-                          {attraction.name}
-                      </ListGroup.Item>
+                      <Accordion.Item
+                        key={i}
+                        eventKey={i}
+                        onClick={() => {
+                          console.log(tripDetailedData)
+                          setSelectedIndex(i);
+                        }}
+                      >
+                        <Accordion.Header>
+                          <h5>{attraction.name}</h5>
+                        </Accordion.Header>
+                        <Accordion.Body>
+                          <div>{attraction.address}</div>
+                          <Button className="mx-1">Details</Button>
+                          <Button
+                            className="mx-1"
+                            variant="danger"
+                            onClick={() => {
+                              handleDelete(attraction, tripDetailedData.trip_id);
+                            }}
+                          >
+                            Delete
+                          </Button>
+                        </Accordion.Body>
+                      </Accordion.Item>
                     );
                   })}
-                </ListGroup>
+                </Accordion>
               </div>
             </Col>
             <Col md={9}>
-              <Map attractions={tripDetailedData.attractions} selectedId={selectedIndex}/>
+              <Map
+                attractions={tripDetailedData.attractions}
+                selectedId={selectedIndex}
+              />
             </Col>
           </Row>
         </Container>

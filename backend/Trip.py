@@ -53,15 +53,22 @@ class Trip:
         # TODO
         print("TODO")
     #--------------------------------------------
-
+    def is_owner(self, user_id):
+        for u in self.users:
+            if u.role == "Owner":
+                return user_id == u.id
+            
     # Attraction method
     def add_attraction(self, attraction_id, user_id):
         # TODO
         print("TODO")
 
     def remove_attraction(self, attraction_id, user_id):
-        # TODO
-        print("TODO")
+        for a in self.attractions:
+            if a.id == attraction_id and (a.creatorId == user_id or self.is_owner(user_id)):
+                return a.remove()
+        return False
+
 
     def get_initial_coordinate_zoom(self):
         """
