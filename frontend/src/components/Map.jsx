@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import { Container } from "react-bootstrap";
+import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoiaGFydmV5dWJjIiwiYSI6ImNsaWRyenBieTB1dzgza3BmN2h3OTBmbW0ifQ.adlzsHRQg4Y4X0XJ8zLsCg";
@@ -40,6 +41,21 @@ function Map(props) {
 
     // Add navigation control (the +/- zoom buttons)
     map.addControl(new mapboxgl.NavigationControl(), "top-right");
+
+    // Add geocoding control
+    const geocoder = new MapboxGeocoder({
+      accessToken: mapboxgl.accessToken,
+      mapboxgl: mapboxgl,
+      marker: true
+      })
+    geocoder.on("result", (r) => {
+      console.log(geocoder.mapMarker)
+      geocoder.mapMarker.setPopup(new mapboxgl.Popup().setHTML('<h1>Testing</h1>'))
+      geocoder.mapMarker.togglePopup()
+    })
+    map.addControl(
+      geocoder, "top-left"
+    )
 
     map.on("move", () => {
       setLng(map.getCenter().lng);
