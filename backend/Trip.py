@@ -1,6 +1,7 @@
 import database_helper
 from Attraction import Attraction
 from User import User
+from datetime import datetime
 
 
 class Trip:
@@ -53,15 +54,45 @@ class Trip:
         # TODO
         print("TODO")
     #--------------------------------------------
-
+    def is_owner(self, user_id):
+        for u in self.users:
+            if u.role == "Owner":
+                return user_id == u.id
+            
     # Attraction method
-    def add_attraction(self, attraction_id, user_id):
-        # TODO
-        print("TODO")
+    def add_attraction(self, attraction, user_id):
+        conn = database_helper.get_db_connections()
+        cursor = conn.cursor()
+        try:
+            cursor.execute(
+                    f"INSERT INTO Attraction (name, type, lat, lon, address, description) VALUES (?, ?, ?, ?, ?, ?)",
+                    (
+                        attraction['name'],
+                        attraction['type'],
+                        attraction['lat'],
+                        attraction['lon'],
+                        attraction['address'],
+                        attraction['description']
+                    ),
+                )
+            attractionId = cursor.lastrowid
+            cursor.execute(
+            "INSERT INTO TripAttractionRecord (attraction_id, trip_id, user_created_id, added_date) VALUES (?, ?, ?, ?)",
+            (attractionId, self.id, user_id, datetime.now()),
+            )
+            return True
+        except:
+            return False
+        finally:
+            conn.commit()
+            conn.close()
 
     def remove_attraction(self, attraction_id, user_id):
-        # TODO
-        print("TODO")
+        for a in self.attractions:
+            if a.id == attraction_id and (a.creatorId == user_id or self.is_owner(user_id)):
+                return a.remove()
+        return False
+
 
     def get_initial_coordinate_zoom(self):
         """
@@ -69,3 +100,4 @@ class Trip:
         """
         # TODO
         print("TODO")
+

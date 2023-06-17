@@ -7,7 +7,7 @@ function TripsView() {
   const routeParams = useParams();
   const [tripData, setTripData] = useState(null);
   useEffect(() => {
-    fetch(`http://localhost:5000/userTrips?userId=${routeParams.id}`, {
+    fetch(`http://localhost:5000/userTrips?userId=${routeParams.userId}`, {
       method: "GET",
       headers: {
         "Access-Control-Allow-Origin": "http://localhost:5000/",
@@ -22,10 +22,10 @@ function TripsView() {
       <TopNavbar />
       <h1 className="mx-auto text-center">All Trips</h1>
       <div className="mx-auto p-3 text-center">
-        <Button variant="primary" className="mx-2" href={`/joinTrip/${routeParams.id}`}>
+        <Button variant="primary" className="mx-2" href={`/joinTrip/${routeParams.userId}`}>
           Join a Trip
         </Button>
-        <Button variant="primary" className="mx-2" href={`/createTrip/${routeParams.id}`}>
+        <Button variant="primary" className="mx-2" href={`/createTrip/${routeParams.userId}`}>
           Create Trip
         </Button>
       </div>
@@ -51,7 +51,7 @@ function TripsView() {
                     </Card.Text>
                     <Button
                       variant="primary"
-                      href={`/userTripMap/${trip.trip_id}`}
+                      href={`/userTripMap/${routeParams.userId}/${trip.trip_id}`}
                     >
                       Detailed Map View
                     </Button>
