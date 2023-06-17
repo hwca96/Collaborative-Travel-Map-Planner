@@ -74,17 +74,26 @@ def addUserToTrip():
         return "Error", 500
 
 
-@app.route("/createTrip", methods=["POST"])
+@app.route("/createTrip", methods=["POST", "PUT"])
 def createTrip():
     requestBody = request.get_json()
-    userId = requestBody["userId"]
     tripname = requestBody["tripName"]
     startDate = requestBody["startDate"]
     endDate = requestBody["endDate"]
-    if database_helper.createTrip(userId, tripname, startDate, endDate):
-        return "", 200
+    if request.method == "POST":
+        # userId only needed in create
+        userId = requestBody["userId"]
+        if database_helper.createTrip(userId, tripname, startDate, endDate):
+            return "", 200
+        else:
+            return "Error", 500
     else:
-        return "Error", 500
+        print(requestBody)
+        tripId = requestBody['tripId']
+        if database_helper.updateTripDetails(tripId, tripname, startDate, endDate):
+            return "", 200
+        else:
+            return "Error", 500
 
 @app.route("/deleteAttraction", methods=["DELETE"])
 def deleteAttraction():

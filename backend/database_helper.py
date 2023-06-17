@@ -37,7 +37,8 @@ def add_user_to_trip(userId, tripId, role="User"):
     try:
         cursor.execute(
             "INSERT INTO TripUserRecord (trip_id, user_id, role) VALUES (?, ?, ?)",
-            (tripId, userId, role))
+            (tripId, userId, role),
+        )
         return True
     except:
         return False
@@ -46,20 +47,49 @@ def add_user_to_trip(userId, tripId, role="User"):
         conn.commit()
         conn.close()
 
+
 def createTrip(userId, tripName, tripStartStr, tripEndStr):
     conn = get_db_connections()
     cursor = conn.cursor()
     try:
         format = "%Y-%m-%d"
-        startDate = datetime.strptime(tripStartStr, format).date()
-        endDate = datetime.strptime(tripEndStr, format).date()
+        startDate, endDate = None, None
+        if tripStartStr:
+            startDate = datetime.strptime(tripStartStr, format).date()
+        if tripEndStr:
+            endDate = datetime.strptime(tripEndStr, format).date()
         cursor.execute(
             "INSERT INTO Trip (trip_name, trip_created_date, trip_start_date, trip_end_date) VALUES (?, ?, ?, ?)",
-            (tripName, datetime.now(), startDate, endDate))
+            (tripName, datetime.now(), startDate, endDate),
+        )
         tripId = cursor.lastrowid
         cursor.execute(
             "INSERT INTO TripUserRecord (trip_id, user_id, role) VALUES (?, ?, ?)",
-            (tripId, userId, "Owner"))
+            (tripId, userId, "Owner"),
+        )
+        return True
+    except:
+        return False
+    finally:
+        # committing and closing connection
+        conn.commit()
+        conn.close()
+
+
+def updateTripDetails(tripId, tripName, tripStartStr, tripEndStr):
+    conn = get_db_connections()
+    cursor = conn.cursor()
+    try:
+        format = "%Y-%m-%d"
+        startDate, endDate = None, None
+        if tripStartStr:
+            startDate = datetime.strptime(tripStartStr, format).date()
+        if tripEndStr:
+            endDate = datetime.strptime(tripEndStr, format).date()
+        cursor.execute(
+            "UPDATE Trip  SET trip_name = ?, trip_start_date = ?, trip_end_date = ? WHERE trip_id = ?",
+            (tripName, startDate, endDate, tripId)
+        )
         return True
     except:
         return False

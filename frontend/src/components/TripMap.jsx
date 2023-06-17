@@ -5,6 +5,7 @@ import TopNavbar from "./TopNavbar";
 import { useParams } from "react-router-dom";
 import AttractionCollapse from "./AttractionCollapse";
 import { Accordion } from "react-bootstrap";
+import TripDate from "./TripDate";
 
 function TripMap() {
   const routeParams = useParams();
@@ -101,12 +102,17 @@ function TripMap() {
               </div>
             </Col>
             <Col md={9}>
+              <Row>
+                <TripDate tripDetailedData={tripDetailedData}></TripDate>
+              </Row>
+              <Row>
               <Map
                 attractions={tripDetailedData.attractions}
                 selectedId={selectedIndex}
                 userId={routeParams.userId}
                 tripId={tripDetailedData.trip_id}
               />
+              </Row>
             </Col>
           </Row>
         </Container>
