@@ -104,6 +104,8 @@ function TripMap() {
               <Map
                 attractions={tripDetailedData.attractions}
                 selectedId={selectedIndex}
+                userId={routeParams.userId}
+                tripId={tripDetailedData.trip_id}
               />
             </Col>
           </Row>

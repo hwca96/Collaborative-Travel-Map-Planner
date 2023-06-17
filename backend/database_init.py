@@ -36,29 +36,17 @@ for user_data in init_user_data:
 with open("data/vancouver_attractions.json", encoding="utf8") as f:
     data = json.load(f)
     for poi in data["poi"]:
-        if "Description" in poi:
-            cur.execute(
-                f"INSERT INTO Attraction (name, type, lat, lon, address, description) VALUES (?, ?, ?, ?, ?, ?)",
-                (
-                    poi["Poiname"],
-                    poi["customType"],
-                    poi["wLat"],
-                    poi["wLon"],
-                    poi["Address"],
-                    poi["Description"],
-                ),
-            )
-        else:
-            cur.execute(
-                f"INSERT INTO Attraction (name, type, lat, lon, address) VALUES (?, ?, ?, ?, ?)",
-                (
-                    poi["Poiname"],
-                    poi["customType"],
-                    poi["wLat"],
-                    poi["wLon"],
-                    poi["Address"],
-                ),
-            )
+        cur.execute(
+            f"INSERT INTO Attraction (name, type, lat, lon, address, description) VALUES (?, ?, ?, ?, ?, ?)",
+            (
+                poi["Poiname"],
+                poi["customType"],
+                poi["wLat"],
+                poi["wLon"],
+                poi["Address"],
+                "vancouver attractions"
+            ),
+        )
 
 # Trip and Trip User Records
 now = datetime.now()
@@ -68,7 +56,7 @@ connection.execute(
 )
 connection.execute(
     "INSERT INTO TripUserRecord (trip_id, user_id, role) VALUES (?, ?, ?)",
-    (1, 1, "Owner")
+    (1, 1, "Owner"),
 )
 
 # Add attraction to trip

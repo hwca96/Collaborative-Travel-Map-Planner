@@ -18,7 +18,7 @@ class Attraction:
         cursor = conn.cursor()
 
         # Getting trip database row
-        cursor.execute(f"SELECT * FROM Attraction INNER JOIN TripAttractionRecord ON Attraction.attraction_id = TripAttractionRecord.attraction_id WHERE Attraction.attraction_id = {trip_attraction_id}")
+        cursor.execute(f"SELECT * FROM Attraction INNER JOIN TripAttractionRecord ON Attraction.attraction_id = TripAttractionRecord.attraction_id WHERE TripAttractionRecord.trip_attraction_id = {trip_attraction_id}")
         attraction_db_rows = cursor.fetchone()
 
         # Getting comments of this attraction

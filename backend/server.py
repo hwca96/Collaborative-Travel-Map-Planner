@@ -2,6 +2,7 @@ from flask import Flask, request
 from Trip import Trip
 import database_helper
 from flask_cors import CORS
+from GeocoderAdaptor import GeocoderAdaptor
 
 app = Flask(__name__)
 CORS(app)
@@ -96,6 +97,19 @@ def deleteAttraction():
         return "", 200
     else:
         return "Error", 500
+    
+@app.route("/addMapboxAttraction", methods=["POST"])
+def addMapboxAttraction():
+    requestBody = request.get_json()
+    userId = int(requestBody['userId'])
+    tripId = int(requestBody['tripId'])
+    trip = Trip(tripId)
+    adaptor = GeocoderAdaptor()
+    attraction = adaptor.parseMapboxAttraction(requestBody['attraction'])
+    if trip.add_attraction(attraction, userId):
+        return "", 200
+    else:
+        return "", 500
 
 
 if __name__ == "__main__":
