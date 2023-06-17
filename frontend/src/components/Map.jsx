@@ -12,9 +12,9 @@ function Map(props) {
   const userId = props.userId
   const tripId = props.tripId
   const mapContainerRef = useRef(null);
-  const [lng, setLng] = useState(-122.41);
-  const [lat, setLat] = useState(49.53);
-  const [zoom, setZoom] = useState(8.85);
+  const [lng, setLng] = useState(30);
+  const [lat, setLat] = useState(50);
+  const [zoom, setZoom] = useState(1.5);
 
   // Initialize map when component mounts
   useEffect(() => {
@@ -23,6 +23,7 @@ function Map(props) {
       style: "mapbox://styles/mapbox/streets-v11",
       center: [lng, lat],
       zoom: zoom,
+      projection: 'globe'
     });
 
     attractions.map((a) => {
@@ -43,6 +44,12 @@ function Map(props) {
 
     // Add navigation control (the +/- zoom buttons)
     map.addControl(new mapboxgl.NavigationControl(), "top-right");
+
+    var bounds = new mapboxgl.LngLatBounds();
+    map._markers.forEach(element => {
+      bounds.extend(element._lngLat)
+    });
+    map.fitBounds(bounds, {padding: 100, speed: 0.8});
 
     // Add geocoding control
     const geocoder = new MapboxGeocoder({
@@ -110,6 +117,8 @@ function Map(props) {
       });
       map._markers[selectedId].togglePopup();
     }
+
+    
 
     // Clean up on unmount
     return () => map.remove();

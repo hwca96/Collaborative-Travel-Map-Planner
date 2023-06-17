@@ -38,10 +38,10 @@ function TripDate(props) {
     handleClose();
   };
   return (
-    <Container>
-      <Row>
+    <Container fluid>
+      <Row >
         <Col md="auto">
-          <h4>{tripData.trip_name}</h4>
+          <h4 className="text-left">{tripData.trip_name}</h4>
         </Col>
         <Col md='auto'>
           {tripData.trip_start_date && tripData.trip_end_date ? (
