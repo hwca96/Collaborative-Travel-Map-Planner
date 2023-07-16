@@ -87,13 +87,6 @@ class Trip:
             conn.commit()
             conn.close()
 
-    def remove_attraction(self, attraction_id, user_id):
-        for a in self.attractions:
-            if a.id == attraction_id and (a.creatorId == user_id or self.is_owner(user_id)):
-                return a.remove()
-        return False
-
-
     def get_initial_coordinate_zoom(self):
         """
         Get the initial map zoom and coordinate based on the attractions inside this trip

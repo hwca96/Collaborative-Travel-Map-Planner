@@ -9,8 +9,8 @@ mapboxgl.accessToken =
 function Map(props) {
   const attractions = props.attractions;
   var selectedId = props.selectedId;
-  const userId = props.userId
-  const tripId = props.tripId
+  const userId = props.userId;
+  const tripId = props.tripId;
   const mapContainerRef = useRef(null);
   const [lng, setLng] = useState(30);
   const [lat, setLat] = useState(50);
@@ -20,10 +20,10 @@ function Map(props) {
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: "mapbox://styles/mapbox/streets-v11",
+      style: "mapbox://styles/mapbox/streets-v12",
       center: [lng, lat],
       zoom: zoom,
-      projection: 'globe'
+      projection: "globe",
     });
 
     attractions.map((a) => {
@@ -44,12 +44,14 @@ function Map(props) {
 
     // Add navigation control (the +/- zoom buttons)
     map.addControl(new mapboxgl.NavigationControl(), "top-right");
-
-    var bounds = new mapboxgl.LngLatBounds();
-    map._markers.forEach(element => {
-      bounds.extend(element._lngLat)
-    });
-    map.fitBounds(bounds, {padding: 100, speed: 0.8});
+    
+    if (map._markers.length) {
+      var bounds = new mapboxgl.LngLatBounds();
+      map._markers.forEach((element) => {
+        bounds.extend(element._lngLat);
+      });
+      map.fitBounds(bounds, { padding: 100, speed: 0.8 });
+    }
 
     // Add geocoding control
     const geocoder = new MapboxGeocoder({
@@ -73,8 +75,8 @@ function Map(props) {
         const data = {
           userId: userId,
           tripId: tripId,
-          attraction: r.result
-        }
+          attraction: r.result,
+        };
         fetch(`http://localhost:5000/addMapboxAttraction`, {
           method: "POST",
           headers: {
@@ -117,8 +119,6 @@ function Map(props) {
       });
       map._markers[selectedId].togglePopup();
     }
-
-    
 
     // Clean up on unmount
     return () => map.remove();

@@ -46,21 +46,6 @@ class Attraction:
         conn.commit()
         conn.close()
 
-    def remove(self):
-        # Setting up connection and cursor
-        conn = database_helper.get_db_connections()
-        cursor = conn.cursor()
-        # Removing record from table
-        try:
-            cursor.execute(f"DELETE FROM TripAttractionRecord WHERE attraction_id = {self.id}")
-            return True
-        except:
-            return False
-        finally:
-            # committing and closing connection
-            conn.commit()
-            conn.close()
-
     def add_comment(self, comment_text, user_id):
         # TODO
         print("TODO")

@@ -97,3 +97,19 @@ def updateTripDetails(tripId, tripName, tripStartStr, tripEndStr):
         # committing and closing connection
         conn.commit()
         conn.close()
+
+def removeAttraction(tripAttractionId, userId):
+    # TODO userId not used right now, need to check for owner status
+    # Setting up connection and cursor
+        conn = get_db_connections()
+        cursor = conn.cursor()
+        # Removing record from table
+        try:
+            cursor.execute("DELETE FROM TripAttractionRecord WHERE trip_attraction_id = ?", [tripAttractionId])
+            return True
+        except:
+            return False
+        finally:
+            # committing and closing connection
+            conn.commit()
+            conn.close()

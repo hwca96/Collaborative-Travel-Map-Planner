@@ -3,12 +3,13 @@ from Trip import Trip
 import database_helper
 from flask_cors import CORS
 from GeocoderAdaptor import GeocoderAdaptor
+import requests
 
 app = Flask(__name__)
 CORS(app)
 
 
-@app.route("/allUsers")
+@app.route("/allUsers", methods=["GET"])
 def allUsers():
     users = {"data": []}
     for r in database_helper.get_all_users():
@@ -18,7 +19,7 @@ def allUsers():
     return users
 
 
-@app.route("/userTrips")
+@app.route("/userTrips", methods=["GET"])
 def userTrips():
     user_id = request.args["userId"]
     trips = {"data": []}
@@ -35,7 +36,7 @@ def userTrips():
     return trips
 
 
-@app.route("/tripDetails")
+@app.route("/tripDetails", methods=["GET"])
 def attractions():
     tripId = request.args["id"]
     t = Trip(int(tripId))
@@ -51,7 +52,7 @@ def attractions():
                 "description": a.description,
                 "num_comments": len(a.comments),
                 "average_vote_score": a.get_average_vote(),
-                "creatorId": a.creatorId
+                "creatorId": a.creatorId,
             }
         )
     return {
@@ -89,37 +90,50 @@ def createTrip():
             return "Error", 500
     else:
         print(requestBody)
-        tripId = requestBody['tripId']
+        tripId = requestBody["tripId"]
         if database_helper.updateTripDetails(tripId, tripname, startDate, endDate):
             return "", 200
         else:
             return "Error", 500
 
+
 @app.route("/deleteAttraction", methods=["DELETE"])
 def deleteAttraction():
     requestBody = request.get_json()
-    tripAttractionId = int(requestBody['tripAttractionId'])
-    userId = int(requestBody['userId'])
-    tripId = int(requestBody['tripId'])
-    trip = Trip(tripId)
-    if trip.remove_attraction(tripAttractionId, userId):
+    tripAttractionId = int(requestBody["tripAttractionId"])
+    userId = int(requestBody["userId"])
+    print(tripAttractionId, userId)
+    if database_helper.removeAttraction(tripAttractionId, userId):
         return "", 200
     else:
         return "Error", 500
-    
+
+
 @app.route("/addMapboxAttraction", methods=["POST"])
 def addMapboxAttraction():
     requestBody = request.get_json()
-    userId = int(requestBody['userId'])
-    tripId = int(requestBody['tripId'])
+    userId = int(requestBody["userId"])
+    tripId = int(requestBody["tripId"])
     trip = Trip(tripId)
     adaptor = GeocoderAdaptor()
-    attraction = adaptor.parseMapboxAttraction(requestBody['attraction'])
+    attraction = adaptor.parseMapboxAttraction(requestBody["attraction"])
     if trip.add_attraction(attraction, userId):
         return "", 200
     else:
         return "", 500
 
+
+@app.route("/weatherDetail", methods=["GET"])
+def weatherDetails():
+    lon = request.args["lon"]
+    lat = request.args["lat"]
+    startDate = request.args["start"]
+    endDate = request.args["end"]
+    APIKEY = "69D6AKCMLUZUZQL3YKS8LU6DK"
+    requestUrl = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{lat}%2C%20{lon}/{startDate}/{endDate}?unitGroup=metric&key={APIKEY}&contentType=json"
+    response = requests.get(requestUrl)
+    print(response)
+    return "", 200
 
 if __name__ == "__main__":
     app.run(debug=True)

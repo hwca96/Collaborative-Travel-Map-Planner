@@ -13,6 +13,7 @@
     "@mapbox/mapbox-gl-geocoder": "^5.0.1",
     "bootstrap": "^4.6.0",
     "mapbox-gl": "^2.15.0",
+    "mathjs": "^11.8.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",

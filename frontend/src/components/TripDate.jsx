@@ -1,5 +1,14 @@
-import { Row, Col, Container, Button, Modal, Form } from "react-bootstrap";
+import {
+  Row,
+  Col,
+  Container,
+  Button,
+  Modal,
+  Form,
+  Offcanvas,
+} from "react-bootstrap";
 import { useState } from "react";
+import WeatherPanel from "./WeatherPanel";
 
 function TripDate(props) {
   const tripData = props.tripDetailedData;
@@ -7,43 +16,47 @@ function TripDate(props) {
   const [tripStartDate, setTripStartDate] = useState(tripData.trip_start_date);
   const [tripEndDate, setTripEndDate] = useState(tripData.trip_end_date);
   const [editDateShow, setEditDateshoe] = useState(false);
-  const handleClose = () => setEditDateshoe(false);
-  const handleShow = () => setEditDateshoe(true);
+  const [weatherShow, setWeatherShow] = useState(false);
+  const handleDateClose = () => setEditDateshoe(false);
+  const handleDateShow = () => setEditDateshoe(true);
+  const handleWeatherClose = () => setWeatherShow(false);
+  const handleWeatherShow = () => setWeatherShow(true);
   const onFormSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     const data = {
-        "tripId": tripData.trip_id,
-        "tripName": tripName,
-        "startDate": tripStartDate,
-        "endDate": tripEndDate
-    }
+      tripId: tripData.trip_id,
+      tripName: tripName,
+      startDate: tripStartDate,
+      endDate: tripEndDate,
+    };
     fetch("http://localhost:5000/createTrip", {
-        method: "PUT",
-        headers: {
-            "Access-Control-Allow-Origin": "http://localhost:5000/",
-            "Access-Control-Allow-Methods": "PUT",
-            'Content-type':'application/json'
-          },
-          body: JSON.stringify(data)
-    }).then((response) => {
-        if (response.status === 200) {
-            alert("Successfully Updated Trip Details")
-            window.location.reload(false)
-        } else {
-            alert("Something went wrong")
-        }
+      method: "PUT",
+      headers: {
+        "Access-Control-Allow-Origin": "http://localhost:5000/",
+        "Access-Control-Allow-Methods": "PUT",
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify(data),
     })
-    .catch((error) => console.error(error));
+      .then((response) => {
+        if (response.status === 200) {
+          alert("Successfully Updated Trip Details");
+          window.location.reload(false);
+        } else {
+          alert("Something went wrong");
+        }
+      })
+      .catch((error) => console.error(error));
     // alert(tripIdToJoin);
-    handleClose();
+    handleDateClose();
   };
   return (
     <Container fluid>
-      <Row >
+      <Row>
         <Col md="auto">
           <h4 className="text-left">{tripData.trip_name}</h4>
         </Col>
-        <Col md='auto'>
+        <Col md="auto">
           {tripData.trip_start_date && tripData.trip_end_date ? (
             <h4>
               From {tripData.trip_start_date} to {tripData.trip_end_date}
@@ -55,11 +68,26 @@ function TripDate(props) {
           )}
         </Col>
         <Col>
-          <Button className="mx-1" onClick={handleShow}>
+          <Button className="mx-1" onClick={handleDateShow}>
             Edit Trip Details
           </Button>
-          <Button className="mx-1">Weather</Button>
-          <Modal show={editDateShow} onHide={handleClose}>
+          <Button className="mx-1" onClick={handleWeatherShow}>
+            Weather
+          </Button>
+          <Button className="mx-1">
+            Iteneiary
+          </Button>
+
+          <Offcanvas show={weatherShow} onHide={handleWeatherClose} placement="end">
+            <Offcanvas.Header closeButton>
+              <Offcanvas.Title>Trip Weather</Offcanvas.Title>
+            </Offcanvas.Header>
+            <Offcanvas.Body>
+              <WeatherPanel tripData={tripData} />
+            </Offcanvas.Body>
+          </Offcanvas>
+
+          <Modal show={editDateShow} onHide={handleDateClose}>
             <Modal.Header closeButton>
               <Modal.Title>Setting Trip Details</Modal.Title>
             </Modal.Header>
@@ -77,7 +105,7 @@ function TripDate(props) {
                   <Form.Label>Start Date</Form.Label>
                   <Form.Control
                     type="date"
-                    value={tripStartDate? (tripStartDate) : ("")}
+                    value={tripStartDate ? tripStartDate : ""}
                     onChange={(event) => {
                       setTripStartDate(event.target.value);
                     }}
@@ -85,20 +113,15 @@ function TripDate(props) {
                   <Form.Label>End Date</Form.Label>
                   <Form.Control
                     type="date"
-                    value={tripEndDate? (tripEndDate) : ("")}
+                    value={tripEndDate ? tripEndDate : ""}
                     onChange={(event) => {
                       setTripEndDate(event.target.value);
                     }}
                   />
                 </Form.Group>
-                {/* <div className="mx-5 my-3 text-center">
-                  <Button variant="primary" type="submit">
-                    Submit
-                  </Button>
-                </div> */}
               </Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
+                <Button variant="secondary" onClick={handleDateClose}>
                   Close
                 </Button>
                 <Button variant="primary" type="submit">

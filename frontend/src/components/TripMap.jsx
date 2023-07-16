@@ -35,8 +35,7 @@ function TripMap() {
     // TODO
     const data = {
       tripAttractionId: attraction.attraction_id,
-      userId: routeParams.userId,
-      tripId: tripId
+      userId: routeParams.userId
     };
     fetch(`http://localhost:5000/deleteAttraction`, {
       method: "DELETE",
