@@ -74,9 +74,6 @@ function TripDate(props) {
           <Button className="mx-1" onClick={handleWeatherShow}>
             Weather
           </Button>
-          <Button className="mx-1">
-            Iteneiary
-          </Button>
 
           <Offcanvas show={weatherShow} onHide={handleWeatherClose} placement="end">
             <Offcanvas.Header closeButton>

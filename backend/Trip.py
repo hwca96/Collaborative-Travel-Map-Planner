@@ -40,6 +40,17 @@ class Trip:
         self.end_date = trip_db_row["trip_end_date"]
         self.created_date = trip_db_row["trip_created_date"]
 
+        # Getting Itinerary
+        self.itinerary = {}
+        if self.end_date and self.start_date:
+            cursor.execute(f"SELECT * FROM TripItinerary WHERE trip_id = {trip_id}")
+            trip_itinerary_rows = cursor.fetchall()
+            for r in trip_itinerary_rows:
+                if self.itinerary[r["scheduled_date"]]:
+                    self.itinerary[r["scheduled_date"]].append(r["trip_attraction_id"])
+                else:
+                    self.itinerary[r["scheduled_date"]] = [r["trip_attraction_id"]]
+
         # committing and closing connection
         conn.commit()
         conn.close()

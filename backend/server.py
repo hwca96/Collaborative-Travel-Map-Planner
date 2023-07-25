@@ -62,6 +62,7 @@ def attractions():
         "trip_end_date": t.end_date,
         "trip_created_date": t.created_date,
         "attractions": attraction_info,
+        "itinerary": t.itinerary
     }
 
 

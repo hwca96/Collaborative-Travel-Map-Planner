@@ -40,6 +40,16 @@ CREATE TABLE IF NOT EXISTS TripAttractionRecord
     FOREIGN KEY (attraction_id) REFERENCES Attraction(attraction_id)
 );
 
+CREATE TABLE IF NOT EXISTS TripItinerary
+(
+    trip_itinerary_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    trip_id INTEGER NOT NULL,
+    trip_attraction_id INTEGER NOT NULL,
+    scheduled_date TIMESTAMP NOT NULL,
+    FOREIGN KEY (trip_id) REFERENCES Trip(trip_id),
+    FOREIGN KEY (trip_attraction_id) REFERENCES TripAttractionRecord(trip_attraction_id)
+);
+
 CREATE TABLE IF NOT EXISTS TripUserRecord
 (
     trip_user_record_id INTEGER PRIMARY KEY AUTOINCREMENT,

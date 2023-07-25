@@ -6,7 +6,7 @@ function WeatherPanel(props) {
   const tripData = props.tripData;
   const tripStartDate = tripData.trip_start_date;
   const tripEndDate = tripData.trip_end_date;
-  const weatherData = null;
+  let weatherData = null;
   const getCenterCoordinate = (attractions) => {
     var lon = [];
     var lat = [];
