@@ -1,7 +1,7 @@
 import database_helper
 from Attraction import Attraction
 from User import User
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 class Trip:
@@ -41,20 +41,33 @@ class Trip:
         self.created_date = trip_db_row["trip_created_date"]
 
         # Getting Itinerary
-        self.itinerary = {}
+        # TODO
+        self.itinerary = []
         if self.end_date and self.start_date:
+            format = "%Y-%m-%d"
+            startDate = datetime.strptime(self.start_date, format).date()
+            endDate = datetime.strptime(self.end_date, format).date()
+            diff = endDate.day - startDate.day
+            print(diff)
+            for i in range(diff + 1):
+                self.itinerary.append(
+                    {"date": (startDate + timedelta(days=i)).strftime(format),
+                     "attractions": []}
+                )
+            # SAMPLE DATA TODO
+            self.itinerary[0]["attractions"].extend([2, 3, 4])
+            self.itinerary[1]["attractions"].extend([2, 3, 4])
+            #____________________________________________________
             cursor.execute(f"SELECT * FROM TripItinerary WHERE trip_id = {trip_id}")
             trip_itinerary_rows = cursor.fetchall()
             for r in trip_itinerary_rows:
-                if self.itinerary[r["scheduled_date"]]:
-                    self.itinerary[r["scheduled_date"]].append(r["trip_attraction_id"])
-                else:
-                    self.itinerary[r["scheduled_date"]] = [r["trip_attraction_id"]]
+                for x in self.itinerary:
+                    if r['scheduled_date'] == x['date']:
+                        x['attractions'].append(r["trip_attraction_id"])
 
         # committing and closing connection
         conn.commit()
         conn.close()
-
 
     # Users might not need to live in Trip
     def add_user(self, user_id):
@@ -64,32 +77,33 @@ class Trip:
     def remove_user(self, user_id):
         # TODO
         print("TODO")
-    #--------------------------------------------
+
+    # --------------------------------------------
     def is_owner(self, user_id):
         for u in self.users:
             if u.role == "Owner":
                 return user_id == u.id
-            
+
     # Attraction method
     def add_attraction(self, attraction, user_id):
         conn = database_helper.get_db_connections()
         cursor = conn.cursor()
         try:
             cursor.execute(
-                    f"INSERT INTO Attraction (name, type, lat, lon, address, description) VALUES (?, ?, ?, ?, ?, ?)",
-                    (
-                        attraction['name'],
-                        attraction['type'],
-                        attraction['lat'],
-                        attraction['lon'],
-                        attraction['address'],
-                        attraction['description']
-                    ),
-                )
+                f"INSERT INTO Attraction (name, type, lat, lon, address, description) VALUES (?, ?, ?, ?, ?, ?)",
+                (
+                    attraction["name"],
+                    attraction["type"],
+                    attraction["lat"],
+                    attraction["lon"],
+                    attraction["address"],
+                    attraction["description"],
+                ),
+            )
             attractionId = cursor.lastrowid
             cursor.execute(
-            "INSERT INTO TripAttractionRecord (attraction_id, trip_id, user_created_id, added_date) VALUES (?, ?, ?, ?)",
-            (attractionId, self.id, user_id, datetime.now()),
+                "INSERT INTO TripAttractionRecord (attraction_id, trip_id, user_created_id, added_date) VALUES (?, ?, ?, ?)",
+                (attractionId, self.id, user_id, datetime.now()),
             )
             return True
         except:
@@ -104,4 +118,3 @@ class Trip:
         """
         # TODO
         print("TODO")
-
